@@ -1,0 +1,51 @@
+
+
+@font-face{
+  font-family:'Nalieta';
+  src: url('./assets/font/Nalieta-nR5EP.otf') format('otf');
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App-logo {
+  font-family: 'Nalieta';
+  color:white;
+  height: 80px;
+  pointer-events:none;
+  -webkit-user-select: none;
+  
+        
+}
+
+
+
+li{text-align:left}
+
+
+.jx_ul-info-list {
+    margin: 2rem auto;
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+}
+.jx_ul-info-list li label {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+
+.jx_ul-info-list li span {
+    width: 50%;
+    display: inline-block;
+}
+
+/* ------ */
