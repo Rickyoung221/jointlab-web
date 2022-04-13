@@ -1,0 +1,56 @@
+
+
+.sidebar-button{
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+}
+
+.sidebar{
+  min-width:120px;
+  max-width:200px;
+  height:50%;
+  width:15%;
+  background-color:#fff;
+  position:fixed;
+  z-index:0;
+  overflow:auto;
+}
+
+.sidebar-item{
+  width:100%;
+  display:block;
+  padding:8px 16px;
+  text-align:left;
+  border:none;
+  white-space:normal;
+  float:none;
+  outline:0;
+}
+
+.sidebar-border-bottom{
+  border-bottom:1px solid #ccc;
+}
+
+
+ul.titleCustom{
+   font-size:12px;
+   list-style-type: none;
+}
+
+.active {
+  color: #2974AE;
+  font-weight: 200;
+}
+
+.titleUnclick{
+  pointer-events: none;
+}

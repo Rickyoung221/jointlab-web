@@ -1,0 +1,13 @@
+ul.a {
+  list-style-type: square;
+}
+ul.number{
+  list-style-type: decimal;
+}
+img.data_screenshot{
+  width:300px;
+  height:auto;
+  display:block;
+  margin:auto;
+  margin-right:30px;
+}
