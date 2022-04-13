@@ -1,0 +1,20 @@
+.size-custom{
+    margin-top:50px;
+    margin-bottom:auto;
+    margin-left:200px;
+    margin-right:200px;
+    min-width: 200px;
+    padding: 15px;
+    width: 60%;
+    margin: auto;
+}
+
+input:-webkit-autofill {
+    background-color: yellow;
+}
+
+.recaptcha_position{
+  text-align: center;
+  display:table;
+  margin:0 auto;
+}

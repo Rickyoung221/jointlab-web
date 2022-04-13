@@ -1,0 +1,36 @@
+.publication{
+  width:200px;
+  height:auto;
+  display:block;
+  margin:auto;
+  margin-right: 20px;
+  float:left;
+
+}
+
+a.pdf{
+  color: blue;
+  font-weight: 400;
+  text-align: justify;
+
+}
+
+a.pdf:before{
+  content:'📄';
+}
+a.pdf:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.pdf-link-position{
+  position: relative;
+  height: auto;
+
+}
+
+.temp{
+  position: absolute;
+
+
+}

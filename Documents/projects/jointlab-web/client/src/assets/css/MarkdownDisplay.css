@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text|Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+.content body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --padding: 21px;
+  --bg-color: #f5f8eb;
+  --text-color: #0a643a;
+  --accent-color: #a0bb2e;
+  --font-family: 'Noticia Text';
+  --font-display: 'Lalezar';
+}
+
+
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--padding);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  line-height: 2;
+  font-size: 21px;
+
+}
+
+.content h1{
+  font-size:1.5em;
+}
+
+.content h2{
+  font-size:1.2em;
+  transform: translateX(-5px);
+  font-family: var(--font-display);
+  margin-bottom: 0;
+}
+
+
+.content img{
+  max-width:1000px;
+  height:auto;
+  text-align: center;
+}
+
+a.article{
+  color: var(--text-color);
+}
+
+.content strong{
+  display: inline-block;
+  transform: translateX(-5px);
+  font-size: 130%;
+  line-height: 1;
+  font-family: var(--font-display);
+}
+
+.content strong:before{
+  content: '';
+  margin-right: 5px;
+  margin-top: 34px;
+  display: inline-block;
+}

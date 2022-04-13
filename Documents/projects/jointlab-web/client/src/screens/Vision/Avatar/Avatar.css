@@ -1,0 +1,24 @@
+img.avatar-custom{
+    width: 150px;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-fluid{
+  margin-top:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.main-content strong{
+  display: inline-block;
+  transform: translateX(-5px);
+  font-size: 130%;
+  line-height: 1;
+  font-family: var(--font-display);
+}
