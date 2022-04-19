@@ -1,23 +1,26 @@
-.navbar{
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-}
-.nav-link{
-    color:white;
+.navbar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
-.nav-sticky{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top:0px;
-    z-index: 100;
+.nav-link {
+  color: white;
 }
 
-.App-logo{
-  width:150px;
-  height:auto;
+.nav-sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0px;
+  z-index: 100;
 }
-.selected{
-  background-color: #00BFFF ;
+
+.App-logo {
+  width: 150px;
+  height: auto;
+}
+
+.selected {
+  background-color: #00BFFF;
 }

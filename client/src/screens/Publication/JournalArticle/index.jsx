@@ -1,10 +1,9 @@
+import Sidebar from "../components/Sidebar";
+import mdFilePath from "./content/Journal.md";
 import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
-import remarkGfm from "remark-gfm";
-import mdFilePath from "./EducationDevelopmentDoc.md";
-import "./MarkdownDisplay.css";
 
-function MarkdownDisplay() {
+function JournalArticle() {
   const [markdown, setMdFile] = useState(null);
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -14,10 +13,13 @@ function MarkdownDisplay() {
   }, [markdown]);
 
   return (
-    <div className="content">
-      <ReactMarkdown children={markdown} />
-    </div>
+    <>
+      <h1> Journal Articles </h1>
+      <Sidebar />
+      <div className="main-content">
+        <ReactMarkdown children={markdown} />
+      </div>
+    </>
   );
 }
-
-export default MarkdownDisplay;
+export default JournalArticle;

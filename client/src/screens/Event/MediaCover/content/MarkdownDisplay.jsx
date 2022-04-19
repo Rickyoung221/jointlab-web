@@ -1,6 +1,5 @@
 import ReactMarkdown from 'react-markdown';
 import { useEffect, useState } from 'react';
-import remarkGfm from 'remark-gfm';
 import mdFilePath from './template.md';
 
 

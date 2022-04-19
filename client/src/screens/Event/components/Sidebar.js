@@ -1,5 +1,4 @@
-import react from "react";
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Sidebar(){
   const notJump = (e) => {

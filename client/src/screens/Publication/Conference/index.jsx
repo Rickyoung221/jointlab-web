@@ -1,11 +1,11 @@
 import Sidebar from '../components/Sidebar';
 
-function Conference(){
-  return(
+function Conference() {
+  return (
     <>
-    <h1> Conference </h1>
-    <Sidebar />
+      <h1> Conference </h1>
+      <Sidebar />
     </>
-  )
+  );
 }
 export default Conference;

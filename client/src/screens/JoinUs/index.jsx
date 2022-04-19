@@ -3,8 +3,6 @@ import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
 import {
   MDBInput,
-  MDBCheckbox,
-  MDBBtn,
   MDBContainer,
   MDBRow,
   MDBCol,

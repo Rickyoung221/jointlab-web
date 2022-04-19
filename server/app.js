@@ -38,7 +38,7 @@ client.connect('mongodb://localhost:27017/', function (err) {
         console.log('Listening on port 9000...');
     }
 });
-// When the app starts, it connects to MongoDB server using the connect() method of our db.js module and listens on port 3000
+// When the app starts, it connects to MongoDB server using the connect() method of our db.js module and listens on port 
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

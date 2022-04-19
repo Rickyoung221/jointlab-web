@@ -1,11 +1,8 @@
-import react from "react";
 import {NavLink} from "react-router-dom";
-
+import '../../commons/components/Sidebar.css';
 
 function Sidebar(){
-  const notJump = (e) => {
-    e.preventDefault();
-  }
+
   return(
     <>
     <div class="sidebar">

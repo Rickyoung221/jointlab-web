@@ -6,7 +6,7 @@ import educational_practces from '../../../assets/img/Publication/educational_pr
 import ai_combat_pandemics from '../../../assets/img/Publication/ai_combat_pandemics.png';
 import active_learning_at_home from '../../../assets/img/Publication/active_learning_at_home.png';
 import education_development from '../../../assets/img/Publication/education_development.png';
-import { MDBContainer, MDBRow, MDBCol  } from 'mdb-react-ui-kit';
+import { MDBContainer } from 'mdb-react-ui-kit';
 
 function Report(){
   return(
@@ -27,9 +27,9 @@ function Report(){
               (e) services for teachers and students, and (f) cooperation between enterprise, government, and schools.
               Specifically, this handbook can help other educators, researchers and practitioners implement similar case studies in their context.
             </p>
-            <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200427/2_1004419561.pdf'> Chinese </a>
-            <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200407/1_1820129841.pdf'> Arabic </a>
-            <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200407/1_1833592181.pdf'> English</a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200427/2_1004419561.pdf'> Chinese </a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200407/1_1820129841.pdf'> Arabic </a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200407/1_1833592181.pdf'> English</a>
           </MDBContainer>
       </section>
     <hr className='new1' />
@@ -45,9 +45,9 @@ function Report(){
             learning materials based on Universal Design (UD). Finally, it provides guidelines for different stakeholders,
             including parents, policy makers, teachers and designers on how to facilitate open and distance learning for students with disabilities.
           </p>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200916/2_1657431281.pdf'> Turkish </a>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/201117/2_1757374231.pdf'> Arabic </a>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200902/2_1916206341.pdf'> English</a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200916/2_1657431281.pdf'> Turkish </a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/201117/2_1757374231.pdf'> Arabic </a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200902/2_1916206341.pdf'> English</a>
         </MDBContainer>
     </section>
     <hr className='new1' />
@@ -59,10 +59,10 @@ function Report(){
           This handbook discusses the use of OEP and OER during COVID-19 outbreak through global vivid stories and experiences, and in line with the five UNESCO objectives.
           It also discusses OER competencies for OEP. Finally, this handbook provides guidelines to both teachers and learners to facilitate OEP and OER application.
           </p>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/201225/2_1710415971.pdf'> Chinese </a>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200916/2_1657431281.pdf'> Arabic </a>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200518/2_1851146971.pdf'> English</a>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200617/2_1754326031.pdf'> Turkish</a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/201225/2_1710415971.pdf'> Chinese </a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200916/2_1657431281.pdf'> Arabic </a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200518/2_1851146971.pdf'> English</a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200617/2_1754326031.pdf'> Turkish</a>
         </MDBContainer>
     </section>
     <hr className='new1' />
@@ -76,8 +76,8 @@ function Report(){
           Furthermore, this book presents a hands-on learning experience about AI by showing simple programming code that
           children could use and implement on the JupyterLab environment.
           </p>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200918/2_1539092511.pdf'> Chinese </a>
-          <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200918/2_1546141161.pdf'> English</a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200918/2_1539092511.pdf'> Chinese </a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200918/2_1546141161.pdf'> English</a>
         </MDBContainer>
     </section>
     <hr className='new1' />
@@ -94,9 +94,9 @@ function Report(){
           Tips and stories on student’s learning associated with active learning are presented.
           In the end, suggestions on how to maintain physical and mental health are also discussed.
           </p>
-            <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200708/2_1348303601.pdf'> Chinese </a>
-            <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/200430/1_1529396341.pdf'> Arabic </a>
-            <a className='pdf' target='_blank' href='http://sli.bnu.edu.cn/uploads/soft/210114/2_0953009451.pdf'> English</a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200708/2_1348303601.pdf'> Chinese </a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200430/1_1529396341.pdf'> Arabic </a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/210114/2_0953009451.pdf'> English</a>
         </MDBContainer>
     </section>
     <hr className='new1' />
@@ -116,7 +116,7 @@ function Report(){
           2) the book has been acquired on ResearchGate read it more than 200 times;
           3) The book was sent to the Egyptian Ministry of Education.
           </p>
-          <a className='pdf' target='_blank' href='https://drive.google.com/drive/folders/1jGB92nFZY_-wyVsglZcBN1jU1XCsUeSf'> English</a>
+          <a className='pdf' target='_blank' rel="noreferrer" href='https://drive.google.com/drive/folders/1jGB92nFZY_-wyVsglZcBN1jU1XCsUeSf'> English</a>
         </MDBContainer>
     </section>
     <hr className='new1' />

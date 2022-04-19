@@ -1,37 +1,36 @@
 import React from 'react';
-import ReactDOM, { render } from 'react-dom';
+import  { render } from 'react-dom';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
 import './assets/index.css';
-import reportWebVitals from './reportWebVitals';
 import './assets/scss/mdb.min.css';
 import './assets/scss/custom_variables.scss';
 import App from './App';
 import Home from './screens/Home';
 
-import Avatar from './screens/Vision/Avatar/Avatar';
-import AboutUs from './screens/Vision/AboutUs/AboutUs';
-import Missions from './screens/Vision/Mission/Mission';
-import Partners from './screens/Vision/Partners/Partners';
-import Advisory from './screens/Vision/AdvisoryBoard/AdvisoryBoard';
+import Avatar from './screens/Vision/Avatar';
+import AboutUs from './screens/Vision/AboutUs';
+import Missions from './screens/Vision/Mission';
+import Partners from './screens/Vision/Partners';
+import Advisory from './screens/Vision/AdvisoryBoard';
 
-import JoinUs from './screens/JoinUs/JoinUs';
+import JoinUs from './screens/JoinUs';
 
-import FinishedProjects from './screens/Research/FinishedProjects/FinishedProjects';
-import OnGoingProjects from './screens/Research/OnGoingProjects/OnGoingProjects';
-import EducationDevelopment from './screens/Research/FinishedProjects/EducationDevelopment/EducationDevelopment';
+import FinishedProjects from './screens/Research/FinishedProjects';
+import OnGoingProjects from './screens/Research/OnGoingProjects';
+import EducationDevelopment from './screens/Research/FinishedProjects/EducationDevelopment';
 
-import Reports from './screens/Publication/Report/Report';
-import JournalArticles from './screens/Publication/JournalArticle/JournalArticle';
-import Conferences from './screens/Publication/Conference/Conference';
+import Reports from './screens/Publication/Report';
+import JournalArticles from './screens/Publication/JournalArticle';
+import Conferences from './screens/Publication/Conference';
 
-import Workshop from './screens/Event/Workshop/Workshop';
+import Workshop from './screens/Event/Workshop';
 import WorkshopContent from './screens/Event/Workshop/content/WorkshopContent';
-import Seminar from './screens/Event/Seminar/Seminar';
-import MediaCover from './screens/Event/MediaCover/MediaCover';
+import Seminar from './screens/Event/Seminar';
+import MediaCover from './screens/Event/MediaCover';
 import MediaCoverContent from './screens/Event/MediaCover/content/MarkdownDisplay';
 
 
@@ -77,8 +76,3 @@ render(
   </BrowserRouter>,
   rootElement
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

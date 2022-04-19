@@ -38,6 +38,7 @@ function FooterPage(){
                 className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#3b5998' }}
                 target="_blank"
+                rel="noreferrer"
                 href='https://www.facebook.com/profile.php?id=100075346335814'
                 role='button'
               >
@@ -48,6 +49,7 @@ function FooterPage(){
                 className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#55acee' }}
                 target="_blank"
+                rel="noreferrer"
                 href='https://twitter.com/SLIofBNU'
                 role='button'
               >
@@ -77,6 +79,7 @@ function FooterPage(){
                 className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#00C957' }}
                 target="_blank"
+                rel="noreferrer"
                 href={qrcodeWeixin}
                 role='button'
               >
