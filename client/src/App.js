@@ -10,14 +10,14 @@ import FooterPage from './screens/commons/Footer';
 function App() {
 
   const [name, setName] =  useState("");
-
+/*
   useEffect(() => {
     fetch("http://localhost:9000/testAPI")
       .then((res) => res.text())
       .then((res) => setName(res));
   }, []);
 
-
+*/
   return (
     <>
       <NavbarPage />
