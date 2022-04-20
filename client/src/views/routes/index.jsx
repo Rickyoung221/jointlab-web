@@ -11,8 +11,6 @@ import Missions from "../Vision/Mission";
 import Partners from "../Vision/Partners";
 import Advisory from "../Vision/AdvisoryBoard";
 
-import JoinUs from "../JoinUs";
-
 import FinishedProjects from "../Research/FinishedProjects";
 import OnGoingProjects from "../Research/OnGoingProjects";
 import EducationDevelopment from "../Research/FinishedProjects/EducationDevelopment";
@@ -27,8 +25,9 @@ import Seminar from "../Event/Seminar";
 import MediaCover from "../Event/MediaCover";
 import MediaCoverContent from "../Event/MediaCover/content/MarkdownDisplay";
 
+import JoinUs from "../JoinUs";
 import NotFound from "../NotFound";
-//Todo: 试试优化代码改成只需要用一个sidebar组件, 需要配置相关路由和使用outlet
+//Todo: 试试优化代码改成只需要用一个sidebar组件, 使用outlet
 function Router() {
   return (
     <BrowserRouter>
