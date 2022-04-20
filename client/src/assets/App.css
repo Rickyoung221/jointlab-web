@@ -22,12 +22,10 @@
 
 li{text-align:left}
 
-body {
+.Web-body {
     min-height:600px;
-    margin-top:200px;
     margin-bottom:auto;
 }
-  body{margin:0}
 
 .main-content{
     margin-top:50px;

@@ -6,7 +6,7 @@ function Sidebar(){
   }
   return(
     <>
-      <div class="sidebar sdiebar-block">
+      <div className="sidebar sdiebar-block">
         <NavLink to='/events' className="sidebar-item sidebar-button sidebar-border-bottom titleUnclick" onClick={notJump}>Events </NavLink>
           <ul className='titleCustom'>
               <li>

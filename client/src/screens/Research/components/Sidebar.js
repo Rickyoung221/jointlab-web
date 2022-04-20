@@ -6,7 +6,7 @@ function Sidebar(){
   }
   return(
     <>
-      <div class="sidebar">
+      <div className="sidebar">
         <NavLink to='/research' className="sidebar-item sidebar-button sidebar-border-bottom titleUnclick" onClick={notJump}>Research </NavLink>
           <ul className='titleCustom'>
               <li>

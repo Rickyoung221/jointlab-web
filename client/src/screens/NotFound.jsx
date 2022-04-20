@@ -6,10 +6,10 @@ export default function NotFound() {
     window.scrollTo(0, 0);
   });
   return (
-    <div class="site">
-      <div class="sketch">
-        <div class="bee-sketch red"></div>
-        <div class="bee-sketch blue"></div>
+    <div className="site">
+      <div className="sketch">
+        <div className="bee-sketch red"></div>
+        <div className="bee-sketch blue"></div>
       </div>
       <h1>
         404:

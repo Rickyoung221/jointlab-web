@@ -5,7 +5,7 @@ function Sidebar(){
 
   return(
     <>
-    <div class="sidebar">
+    <div className="sidebar">
         <NavLink to="/vision/mission" className="sidebar-item sidebar-button sidebar-border-bottom">Mission</NavLink>
         <NavLink to='/vision/aboutUs' className="sidebar-item sidebar-button sidebar-border-bottom">About Us </NavLink>
         <ul className='titleCustom'>

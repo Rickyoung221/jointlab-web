@@ -68,15 +68,6 @@ function FooterPage(){
 
               <a
                 className='btn btn-primary btn-floating m-1'
-                style={{ backgroundColor: '#0082ca' }}
-                href='#!'
-                role='button'
-              >
-                <MDBIcon fab icon='linkedin-in' />
-              </a>
-
-              <a
-                className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#00C957' }}
                 target="_blank"
                 rel="noreferrer"
