@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <NavbarPage />
-        <body>
+
           <Outlet />
-        </body>
+
       <FooterPage />
     </>
   );

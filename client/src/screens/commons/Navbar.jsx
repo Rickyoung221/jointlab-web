@@ -43,7 +43,7 @@ function NavbarPage() {
                     }
                     to="/"
                   >
-                    Home 
+                    Home
                     <span className="sr-only">(current)</span>
                   </NavLink>
                 </div>
@@ -182,7 +182,6 @@ function NavbarPage() {
               <MDBNavbarItem>
                 <div className="nav-item active">
                   <NavLink
-                    activeClassName="selected"
                     className="nav-link"
                     to="/joinUs"
                   >
@@ -199,4 +198,3 @@ function NavbarPage() {
 }
 
 export default NavbarPage;
-

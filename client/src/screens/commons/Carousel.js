@@ -16,7 +16,7 @@ function CarouselPage() {
     <MDBContainer breakpoint = 'md'>
         <MDBCarousel showControls fade>
           <MDBCarouselInner>
-            <MDBCarouselItem className='active' itemId="1">
+            <MDBCarouselItem className='active' itemID="1">
               <div className="carouselImg">
                 <MDBCarouselElement src={lab1} alt='First slide' />
               </div>
@@ -26,7 +26,7 @@ function CarouselPage() {
               </MDBCarouselCaption>
             </MDBCarouselItem>
 
-            <MDBCarouselItem itemId="2">
+            <MDBCarouselItem itemID="2">
               <MDBCarouselElement src={lab2} className='carouselImg' alt='Second Slide' />
               <MDBCarouselCaption>
                 <h5 className='text-capitalize'>title2</h5>
@@ -34,7 +34,7 @@ function CarouselPage() {
               </MDBCarouselCaption>
             </MDBCarouselItem>
 
-            <MDBCarouselItem itemId="3">
+            <MDBCarouselItem itemID="3">
               <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp' alt='Third Slide' className='carouselImg' />
               <MDBCarouselCaption>
                 <h5 className='text-capitalize'>title3</h5>

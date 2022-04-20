@@ -21,13 +21,13 @@ function FooterPage(){
           <MDBCol md="6">
             <h4 className="text-uppercase fw-bold mb-4" > Contact </h4>
               {contact.map((item, index) =>
-                <div1 key={index} >
+                <div key={index} >
                   <li className="list-unstyled">
                     <i className='fas fa-home me-3'></i> {item.address}. Postcode: {item.postcode}
                   </li>
                   <li className="list-unstyled"> <i className='fas fa-phone me-3'></i> {item.phone} </li>
                   <li className="list-unstyled"> <i className='fas fa-envelope me-3'></i> {item.email} </li>
-                </div1>
+                </div>
               )}
           </MDBCol>
 
