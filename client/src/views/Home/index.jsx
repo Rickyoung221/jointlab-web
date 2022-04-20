@@ -1,5 +1,5 @@
-import Carousel from './commons/Carousel';
-import Scrollspy from './commons/Scrollspy';
+import Carousel from "../commons/components/Carousel";
+import Scrollspy from "../commons/components/Scrollspy";
 
 function HomePage() {
   return (

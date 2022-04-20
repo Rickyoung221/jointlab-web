@@ -5,6 +5,7 @@ import AhmedImg from '../../../assets/img/vision/avatar/ahmed.jpg';
 import YipingImg from '../../../assets/img/vision/avatar/yiping.jpg';
 import Zhiminimg from '../../../assets/img/vision/avatar/zhimin.jpg';
 import JialuImg from '../../../assets/img/vision/avatar/jialu.jpg';
+import RickImg from '../../../assets/img/vision/avatar/rick.jpeg';
 
 function avatarPage() {
   return (
@@ -68,7 +69,7 @@ function avatarPage() {
             </MDBCol>
             <MDBCol md="4">
               <img
-                src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.doubanio.com%2Fview%2Frichtext%2Flarge%2Fpublic%2Fp188626067.jpg&refer=http%3A%2F%2Fimg1.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1649429490&t=aa8620321be31dfb6dcf79fcad94629a"
+                src={RickImg}
                 className="rounded-circle mb-3 avatar-custom"
                 alt="Avatar-Rick"
               />

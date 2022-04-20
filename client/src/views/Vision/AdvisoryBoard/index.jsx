@@ -1,4 +1,4 @@
-import StructureImg from '../../../assets/img/team_structure.jpg';
+import StructureImg from '../../../assets/img/vision/team_structure.jpg';
 import Sidebar from '../components/Sidebar';
 
 export default function AdvisoryBoard() {

@@ -8,9 +8,9 @@ import {
   MDBCol,
 } from 'mdb-react-ui-kit';
 import './JoinUs.css';
-import MailApi from '../../routes/mailApi';
-import SubmitButton from './SubmitButton';
-import SubmittedButton from './SubmittedButton';
+import MailApi from '../../api/mailApi';
+import SubmitButton from './components/SubmitButton';
+import SubmittedButton from './components/SubmittedButton';
 
 /* if google is blocked */
 window.recaptchaOptions = {

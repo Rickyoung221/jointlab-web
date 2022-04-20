@@ -11,7 +11,7 @@ import {
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import "./Navbar.css";
-import logo from "../../assets/img/common/logo.png";
+import logo from "../../../assets/img/common/logo.png";
 
 function NavbarPage() {
   const [showBasic, setShowBasic] = useState(false);

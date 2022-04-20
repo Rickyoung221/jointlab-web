@@ -1,6 +1,6 @@
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Sidebar from '../components/Sidebar';
-import lab1 from '../../../assets/img/lab1.jpeg';
+import lab1 from '../../../assets/img/home/lab1.jpeg';
 import './AboutUs.css';
 
 export default function AboutUs() {
