@@ -1,6 +1,6 @@
-import Sidebar from '../components/Sidebar';
-import workshop1 from '../../../assets/img/event/workshop/Picture1.png';
-import ItemList from '../../commons/components/ItemList';
+import Sidebar from "../components/Sidebar";
+import workshop1 from "../../../assets/img/event/workshop/Picture1.png";
+import ItemList from "../../commons/components/ItemList";
 
 function Workshop() {
   return (

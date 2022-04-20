@@ -6,7 +6,7 @@ function Sidebar(){
     e.preventDefault();
   }
   return(
-    <div class="sidebar ">
+    <div className="sidebar ">
       <NavLink to='/publication' className="sidebar-item sidebar-button sidebar-border-bottom titleUnclick" onClick={notJump}>Publications </NavLink>
         <ul className='titleCustom'>
             <li>

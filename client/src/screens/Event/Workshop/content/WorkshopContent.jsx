@@ -1,6 +1,6 @@
-import ReactMarkdown from 'react-markdown';
-import { useEffect, useState } from 'react';
-import mdFilePath from './workshop1.md';
+import ReactMarkdown from "react-markdown";
+import { useEffect, useState } from "react";
+import mdFilePath from "./workshop1.md";
 
 function WorkshopContent() {
   const [markdown, setMdFile] = useState(null);

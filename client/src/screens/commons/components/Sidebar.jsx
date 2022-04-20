@@ -10,7 +10,6 @@ function Sidebar(props){
   return(
 
     <div className = "w3-sidebar w3-bar-block">
-      
       <NavLink to = '/Events' className = "w3-bar-item w3-button w3-border-bottom w3-hover-none w3-hover-text-grey" onClick = {notJump}> Events </NavLink>
        <div>
         <ul className = 'titleCustom'>

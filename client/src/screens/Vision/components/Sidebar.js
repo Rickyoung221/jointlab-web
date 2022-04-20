@@ -2,9 +2,7 @@ import {NavLink} from "react-router-dom";
 import '../../commons/components/Sidebar.css';
 
 function Sidebar(){
-
   return(
-    <>
     <div className="sidebar">
         <NavLink to="/vision/mission" className="sidebar-item sidebar-button sidebar-border-bottom">Mission</NavLink>
         <NavLink to='/vision/aboutUs' className="sidebar-item sidebar-button sidebar-border-bottom">About Us </NavLink>
@@ -14,7 +12,6 @@ function Sidebar(){
             <li> <NavLink to='/vision/aboutUs/partners' className="sidebar-item sidebar-button"> Our Partners</NavLink> </li>
         </ul>
     </div>
-    </>
   )
 }
 

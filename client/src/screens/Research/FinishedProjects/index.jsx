@@ -67,9 +67,7 @@ function FinishedProjects() {
                 The book has been acquired on ResearchGate read it more than 200
                 times;
               </li>
-              <li>
-                The book was sent to the Egyptian Ministry of Education.
-              </li>
+              <li>The book was sent to the Egyptian Ministry of Education.</li>
             </ul>
           </p>
         </MDBContainer>
