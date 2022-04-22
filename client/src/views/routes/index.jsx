@@ -27,14 +27,20 @@ import MediaCoverContent from "../Event/MediaCover/content/MarkdownDisplay";
 
 import JoinUs from "../JoinUs";
 import NotFound from "../NotFound";
+
+import Admin from '@admin/Login';
+
 //Todo: 试试优化代码改成只需要用一个sidebar组件, 使用outlet
 function Router() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* For backend mananger admin system, would not outlet in the App component */}
+        <Route path="/admin" element={<Admin />} />
+
+
         <Route path="/" element={<App />} exact={true}>
           <Route index element={<Home />} />
-
           <Route path="vision">
             <Route path="mission" element={<Missions />} />
             <Route path="aboutUs" element={<AboutUs />} />

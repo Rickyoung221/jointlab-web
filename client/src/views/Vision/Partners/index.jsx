@@ -11,10 +11,10 @@ import {
   MDBContainer
 } from 'mdb-react-ui-kit';
 import './Partners.css';
-import NetDragonLogo from '../../../assets/img/vision/partners/NetDragon-logo.jpg';
-import ElernityLogo from '../../../assets/img/vision/partners/Elernity-logo.jpg';
-import ClassinLogo from '../../../assets/img/vision/partners/Classin-logo.jpg';
-import AlecsoLogo from '../../../assets/img/vision/partners/ALESCO-logo.jpg';
+import NetDragonLogo from '@img/vision/partners/NetDragon-logo.jpg';
+import ElernityLogo from '@img/vision/partners/Elernity-logo.jpg';
+import ClassinLogo from '@img/vision/partners/Classin-logo.jpg';
+import AlecsoLogo from '@img/vision/partners/ALESCO-logo.jpg';
 
 function partnersPage() {
   return (

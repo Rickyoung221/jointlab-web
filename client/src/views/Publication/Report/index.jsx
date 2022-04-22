@@ -1,11 +1,11 @@
 import './Report.css';
 import Sidebar from '../components/Sidebar';
-import hankbook from '../../../assets/img/Publication/HankBook.png';
-import providing_open_distance_learning from '../../../assets/img/Publication/providing_open_distance_learning.png';
-import educational_practces from '../../../assets/img/Publication/educational_practces.png';
-import ai_combat_pandemics from '../../../assets/img/Publication/ai_combat_pandemics.png';
-import active_learning_at_home from '../../../assets/img/Publication/active_learning_at_home.png';
-import education_development from '../../../assets/img/Publication/education_development.png';
+import hankbook from '@img/Publication/HankBook.png';
+import providing_open_distance_learning from '@img/Publication/providing_open_distance_learning.png';
+import educational_practces from '@img/Publication/educational_practces.png';
+import ai_combat_pandemics from '@img/Publication/ai_combat_pandemics.png';
+import active_learning_at_home from '@img/Publication/active_learning_at_home.png';
+import education_development from '@img/Publication/education_development.png';
 import { MDBContainer } from 'mdb-react-ui-kit';
 
 function Report(){

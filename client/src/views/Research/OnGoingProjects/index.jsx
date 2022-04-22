@@ -1,6 +1,6 @@
-import science_cover from '../../../assets/img/research/1-Science-textbook-comparison.png';
-import arab_cover from '../../../assets/img/research/2-Arab-region-educatio-technology-industry-investigation.png';
-import metaverse_cover from '../../../assets/img/research/3-Metaverse-education.png';
+import science_cover from '@img/research/1-Science-textbook-comparison.png';
+import arab_cover from '@img/research/2-Arab-region-educatio-technology-industry-investigation.png';
+import metaverse_cover from '@img/research/3-Metaverse-education.png';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Sidebar from '../components/Sidebar';
 import './OnGoingProjects.css';

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import {MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon} from 'mdb-react-ui-kit';
-import qrcodeWeixin from '../../../assets/img/home/qrcode_smartlearning_BNU_1.jpeg';
+import qrcodeWeixin from '@img/home/qrcode_smartlearning_BNU_1.jpeg';
 
 function FooterPage(){
   const contact = [

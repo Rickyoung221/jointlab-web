@@ -8,7 +8,7 @@ import {
   MDBCol,
 } from 'mdb-react-ui-kit';
 import './JoinUs.css';
-import MailApi from '../../api/mailApi';
+import MailApi from '@api/mailApi';
 import SubmitButton from './components/SubmitButton';
 import SubmittedButton from './components/SubmittedButton';
 
