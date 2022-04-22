@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import {MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon} from 'mdb-react-ui-kit';
-import {Link} from "react-router-dom";
 import qrcodeWeixin from '../../../assets/img/home/qrcode_smartlearning_BNU_1.jpeg';
 
 function FooterPage(){
@@ -56,15 +55,14 @@ function FooterPage(){
                 <MDBIcon fab icon='twitter' />
               </a>
 
-              <Link to = '/joinUs'
+              <a href = '/joinUs'
                 className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#ac2bac' }}
                 target="_blank"
-                href='#!'
                 role='button'
               >
                 <MDBIcon far icon="envelope" size="lg" />
-              </Link>
+              </a>
 
               <a
                 className='btn btn-primary btn-floating m-1'

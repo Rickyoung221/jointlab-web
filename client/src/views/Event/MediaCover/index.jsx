@@ -1,6 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import ItemList from "../../commons/components/ItemList";
-import completition from "../../../assets/img/event/mediaCover/Picture3.png";
+import completition from "@img/event/mediaCover/Picture3.png";
 
 function MediaCover() {
   return (

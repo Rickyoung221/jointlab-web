@@ -3,7 +3,7 @@ import '../../commons/components/Sidebar.css';
 
 function Sidebar(){
   return(
-    <div className="sidebar">
+    <div className="sidebar sidebar-version">
         <NavLink to="/vision/mission" className="sidebar-item sidebar-button sidebar-border-bottom">Mission</NavLink>
         <NavLink to='/vision/aboutUs' className="sidebar-item sidebar-button sidebar-border-bottom">About Us </NavLink>
         <ul className='titleCustom'>

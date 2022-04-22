@@ -43,7 +43,7 @@ function FinishedProjects() {
             className="educaiton-development float-right"
             alt="Education_Dev"
           />
-          <Link to="/research/OnGoingProjects/EducationDevelopment">
+          <Link to="education-development">
             <h3> Education Development in the Arab Region </h3>
           </Link>
           <p>

@@ -37,18 +37,16 @@ function Router() {
 
           <Route path="vision">
             <Route path="mission" element={<Missions />} />
-            <Route path="aboutUs" element={<AboutUs />}>
-              <Route path="avatar" element={<Avatar />} />
-              <Route path="advisory-board" element={<Advisory />} />
-              <Route path="partners" element={<Partners />} />
-            </Route>
+            <Route path="aboutUs" element={<AboutUs />} />
+              <Route path="aboutUs/avatar" element={<Avatar />} />
+              <Route path="aboutUs/advisory-board" element={<Advisory />} />
+              <Route path="aboutUs/partners" element={<Partners />} />
           </Route>
 
           <Route path="research">
-            <Route path="ongoing-projects" element={<OnGoingProjects />}>
-              <Route path="education-development" element={<EducationDevelopment />} />
-            </Route>
+            <Route path="ongoing-projects" element={<OnGoingProjects />} />
             <Route path="finished-projects" element={<FinishedProjects />} />
+            <Route path="finished-projects/education-development" element={<EducationDevelopment />} />
           </Route>
 
           <Route path="publication">
@@ -58,13 +56,12 @@ function Router() {
           </Route>
 
           <Route path="events">
-            <Route path="workshop" element={<Workshop />}>
-              <Route path="1" element={<WorkshopContent />} />
-            </Route>
+            <Route path="workshop" element={<Workshop />} />
+            <Route path="workshop/1" element={<WorkshopContent />} />
+  
             <Route path="seminar" element={<Seminar />} />
-            <Route path="media-cover" element={<MediaCover />}>
-              <Route path="1" element={<MediaCoverContent />} />
-            </Route>
+            <Route path="media-cover" element={<MediaCover />} />
+            <Route path="media-cover/1" element={<MediaCoverContent />} />
           </Route>
 
           <Route path="joinUs" element={<JoinUs />} />

@@ -3,8 +3,13 @@ const resolve = (dir) => path.resolve(__dirname, dir);
 
 module.exports = {
   webpack: {
+    output: {
+      publicPath: 'auto',
+    },
     alias: {
-      "@src": resolve("src"),
+      "@": resolve("src"),
+      "@img": resolve("src/assets/img"),
+      "@api": resolve("src/api"),
     },
   },
 };

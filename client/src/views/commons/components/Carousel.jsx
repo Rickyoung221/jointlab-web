@@ -7,9 +7,9 @@ import {
   MDBCarouselCaption,
   MDBContainer,
 } from "mdb-react-ui-kit";
-import slide_1 from "../../../assets/img/home/Arab_region_education_technology_industry_investigtion_project.png";
-import slide_2 from "../../../assets/img/home/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png";
-import slide_3 from "../../../assets/img/home/Science_textbook_comparison_project.png";
+import slide_1 from "@img/home/Arab_region_education_technology_industry_investigtion_project.png";
+import slide_2 from "@img/home/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png";
+import slide_3 from "@img/home/Science_textbook_comparison_project.png";
 import "./Carousel.css";
 
 function Carousel() {

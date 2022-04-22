@@ -1,11 +1,11 @@
 import { MDBContainer, MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import './Avatar.css';
 import Sidebar from '../components/Sidebar';
-import AhmedImg from '../../../assets/img/vision/avatar/ahmed.jpg';
-import YipingImg from '../../../assets/img/vision/avatar/yiping.jpg';
-import Zhiminimg from '../../../assets/img/vision/avatar/zhimin.jpg';
-import JialuImg from '../../../assets/img/vision/avatar/jialu.jpg';
-import RickImg from '../../../assets/img/vision/avatar/rick.jpeg';
+import AhmedImg from '@img/vision/avatar/ahmed.jpg';
+import YipingImg from '@img/vision/avatar/yiping.jpg';
+import Zhiminimg from '@img/vision/avatar/zhimin.jpg';
+import JialuImg from '@img/vision/avatar/jialu.jpg';
+import RickImg from '@img/vision/avatar/rick.jpeg';
 
 function avatarPage() {
   return (
