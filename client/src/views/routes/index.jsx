@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "../../assets/index.css";
 import "../../assets/scss/mdb.min.css";
 import "../../assets/scss/custom_variables.scss";
 import Home from "../Home";
-import App from "../../App";
+import App from "../App";
 import Avatar from "../Vision/Avatar";
 import AboutUs from "../Vision/AboutUs";
 import Missions from "../Vision/Mission";
@@ -28,17 +28,12 @@ import MediaCoverContent from "../Event/MediaCover/content/MarkdownDisplay";
 import JoinUs from "../JoinUs";
 import NotFound from "../NotFound";
 
-import Admin from '@admin/Login';
 
 //Todo: 试试优化代码改成只需要用一个sidebar组件, 使用outlet
 function Router() {
   return (
-    <BrowserRouter>
       <Routes>
         {/* For backend mananger admin system, would not outlet in the App component */}
-        <Route path="/admin" element={<Admin />} />
-
-
         <Route path="/" element={<App />} exact={true}>
           <Route index element={<Home />} />
           <Route path="vision">
@@ -50,9 +45,10 @@ function Router() {
           </Route>
 
           <Route path="research">
-            <Route path="ongoing-projects" element={<OnGoingProjects />} />
+            <Route path="ongoing-projects/*" element={<OnGoingProjects />} />
             <Route path="finished-projects" element={<FinishedProjects />} />
             <Route path="finished-projects/education-development" element={<EducationDevelopment />} />
+
           </Route>
 
           <Route path="publication">
@@ -63,11 +59,11 @@ function Router() {
 
           <Route path="events">
             <Route path="workshop" element={<Workshop />} />
-            <Route path="workshop/1" element={<WorkshopContent />} />
+            <Route path="workshop/:articleId" element={<WorkshopContent />} />
   
             <Route path="seminar" element={<Seminar />} />
             <Route path="media-cover" element={<MediaCover />} />
-            <Route path="media-cover/1" element={<MediaCoverContent />} />
+            <Route path="media-cover/:articleId" element={<MediaCoverContent />} />
           </Route>
 
           <Route path="joinUs" element={<JoinUs />} />
@@ -75,7 +71,7 @@ function Router() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    
   );
 }
 export default Router;

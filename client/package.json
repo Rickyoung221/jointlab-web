@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
+  "license": "MIT",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "@emailjs/browser": "^3.4.0",

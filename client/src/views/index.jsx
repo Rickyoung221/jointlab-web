@@ -1,4 +1,4 @@
-import Router from "./views/routes";
+import Router from "./routes";
 import { BrowserRouter } from "react-router-dom";
 import * as React from "react";
 import { createRoot } from "react-dom/client";

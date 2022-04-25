@@ -1,3 +1,4 @@
+
 import data_screenshot from '@img/research/4-Open-Interactive-Database.png';
 import education_development from '@img/research/5-Education-development-in-the-Arab-region.png';
 import Sidebar from '../components/Sidebar';
