@@ -8,7 +8,7 @@ module.exports = {
     },
     alias: {
       "@": resolve("src"),
-      "@img": resolve("src/assets/img"),
+      "@img": resolve("src/assets/images"),
       "@api": resolve("src/api"),
       "@views": resolve("src/views"),
       "@admin": resolve("src/admin"),
