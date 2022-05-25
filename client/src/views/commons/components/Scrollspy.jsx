@@ -35,7 +35,6 @@ export default function Scrollspy() {
         technological-supported education in China, the Arab region, and even
         the world.
       </p>
-      <h1> Recent News </h1>
 
       <h1> About Us </h1>
       <p>

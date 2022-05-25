@@ -1,17 +1,10 @@
-
-@font-face{
-  font-family:'Nalieta';
-  src: url('./font/Nalieta-nR5EP.otf') format('opentype');
+@font-face {
+  font-family: 'Intel';
+  src: url('./font/Inter-VariableFont_slnt,wght.ttf') format('truetype');
 }
-
-@font-face{
-  font-family:'SalmproMedium';
-  src: url('./font/SalmaproMedium-0Wooo.otf') format('opentype');
-}
-
 
 .App-logo {
-  font-family: 'Nalieta';
+  font-family: 'Intel';
   font-weight: 3000;
   font-size: 200%;
   color:white;
@@ -83,7 +76,7 @@ code {
 
 /*
 headers settings
-*/c
+*/
 h1 {
 	font-size: 2.2rem;
 	text-align: center;
@@ -107,18 +100,8 @@ h1 {
   text-align: center;
   font-size: var(--h1-fontsize);
   margin: 1.5rem 10%;
-
 }
 
-
-h1:after {
-  content: '';
-	/* height: 1px; */
-	width: 30%;
-	display: block;
-	margin: .2em auto 0;
-	border-bottom: 2px solid var(--primary-colour);
-}
 
 h3 {
 	font-size: 1.6rem;
@@ -132,10 +115,9 @@ html {
 	font-size: 19px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Intel', sans-serif;
 }
 
 /* ------ */

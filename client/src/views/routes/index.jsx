@@ -36,12 +36,13 @@ function Router() {
         {/* For backend mananger admin system, would not outlet in the App component */}
         <Route path="/" element={<App />} exact={true}>
           <Route index element={<Home />} />
-          <Route path="vision">
-            <Route path="mission" element={<Missions />} />
-            <Route path="aboutUs" element={<AboutUs />} />
-              <Route path="aboutUs/avatar" element={<Avatar />} />
-              <Route path="aboutUs/advisory-board" element={<Advisory />} />
-              <Route path="aboutUs/partners" element={<Partners />} />
+
+          <Route path="aboutUs" >
+              <Route path="aboutUs" element={<AboutUs />} />
+              <Route path="avatar" element={<Avatar />} />
+              <Route path="advisory-board" element={<Advisory />} />
+              <Route path="partners" element={<Partners />} />
+              <Route path="mission" element={<Missions />} />
           </Route>
 
           <Route path="research">

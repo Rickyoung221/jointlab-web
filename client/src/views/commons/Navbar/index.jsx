@@ -60,18 +60,25 @@ function NavbarPage() {
                     to="/vision"
                     onClick={notJump}
                   >
-                    Vision
+                    About Us
                   </NavLink>
                   <ul
                     className="dropdown-menu dropdown-primary"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <NavLink to="/vision/mission" className="dropdown-item">
-                      Mission
+                    <NavLink to="/aboutUs/mission" className="dropdown-item">
+                      Vision & Mission
                     </NavLink>
-                    <NavLink to="/vision/aboutUs" className="dropdown-item">
-                      About Us
+                    <NavLink to="/aboutUs/avatar" className="dropdown-item">
+                      Team Members
                     </NavLink>
+                    <NavLink to="/aboutUs/advisory-board" className="dropdown-item">
+                      Advisory Sturcture
+                    </NavLink>
+                    <NavLink to="/aboutUs/partners" className="dropdown-item">
+                      Our Partners
+                    </NavLink>
+
                   </ul>
                 </MDBDropdown>
               </MDBNavbarItem>
@@ -181,14 +188,12 @@ function NavbarPage() {
 
               <MDBNavbarItem>
                 <div className="nav-item active">
-                  <NavLink
-                    className="nav-link"
-                    to="/joinUs"
-                  >
+                  <NavLink className="nav-link" to="/joinUs">
                     Join Us <span className="sr-only">(current)</span>
                   </NavLink>
                 </div>
               </MDBNavbarItem>
+
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>

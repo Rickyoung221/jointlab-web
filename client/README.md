@@ -7,6 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ```shell
+# After git clone the repo and enter the directory
+yarn install
+
 # Run in development mode
 yarn start
 
@@ -23,6 +26,15 @@ yarn deploy
 - UI 框架：MDBoostreap
 - 后端框架：Express.js
 
+一些第三方模块的使用：
+- react-admin 后台管理系统的前端模板
+- craco 覆盖cra webpack配置
+- env-cmd 修改环境变量
+- gh-pages 部署githubPage 插件
+- react-google-recaptcha：机器人验证插件 需要根据域名generate key 
+- react-markdown 渲染markdown的模块
+- emailjs/browser： 第三方邮件托管服务
+- mdb-react-ui-kit：MDB ui库
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

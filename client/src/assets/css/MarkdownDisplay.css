@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 .content body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Intel', sans-serif;
 }
 
 :root{
@@ -10,7 +10,7 @@
   --bg-color: #f5f8eb;
   --text-color: #0a643a;
   --accent-color: #a0bb2e;
-  --font-family: 'Noticia Text';
+  --font-family: 'Intel';
   --font-display: 'Lalezar';
 }
 
