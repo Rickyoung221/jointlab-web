@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.130c3bb1.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.c00b822f.js",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.7d335aff.js",
     "static/media/team_structure.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/team_structure.da2b9e2419dbe4d969b4.jpg",
     "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.4d94ccf13a480f0f1bae.jpg",
     "static/media/logo-white-font.png": "https://rickyoung221.github.io/jointlab-web/static/media/logo-white-font.52c5cbac536c22a1c9f4.png",
@@ -23,6 +23,7 @@
     "static/media/education_development.png": "https://rickyoung221.github.io/jointlab-web/static/media/education_development.8afddb2c4518c5b715df.png",
     "static/media/Picture3.png": "https://rickyoung221.github.io/jointlab-web/static/media/Picture3.06a63b90e7258a7746d0.png",
     "static/media/3-Metaverse-education.png": "https://rickyoung221.github.io/jointlab-web/static/media/3-Metaverse-education.2259157f4f2d5c4b0688.png",
+    "static/media/index.png": "https://rickyoung221.github.io/jointlab-web/static/media/index.07672fcb847477057f65.png",
     "static/media/yiping.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/yiping.32cdc7d1833335f1acb2.jpg",
     "static/media/rick.jpeg": "https://rickyoung221.github.io/jointlab-web/static/media/rick.f118be0a838941d78c43.jpeg",
     "static/media/ahmed.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/ahmed.04214842dcd9ba1f5ab8.jpg",
@@ -40,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.130c3bb1.css",
-    "static/js/main.c00b822f.js"
+    "static/js/main.7d335aff.js"
   ]
 }
