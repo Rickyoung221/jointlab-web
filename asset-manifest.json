@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.130c3bb1.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.f4376d9b.js",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.7430c267.js",
     "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.4d94ccf13a480f0f1bae.jpg",
     "static/media/logo-white-font.png": "https://rickyoung221.github.io/jointlab-web/static/media/logo-white-font.52c5cbac536c22a1c9f4.png",
     "static/media/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png": "https://rickyoung221.github.io/jointlab-web/static/media/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.fcf61a863f6525617c25.png",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.130c3bb1.css",
-    "static/js/main.f4376d9b.js"
+    "static/js/main.7430c267.js"
   ]
 }
