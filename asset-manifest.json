@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.130c3bb1.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.7d335aff.js",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.15bca5a2.js",
     "static/media/team_structure.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/team_structure.da2b9e2419dbe4d969b4.jpg",
     "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.4d94ccf13a480f0f1bae.jpg",
     "static/media/logo-white-font.png": "https://rickyoung221.github.io/jointlab-web/static/media/logo-white-font.52c5cbac536c22a1c9f4.png",
@@ -35,12 +35,13 @@
     "static/media/Elernity-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Elernity-logo.fd77d36890d978686df5.jpg",
     "static/media/Journal.md": "https://rickyoung221.github.io/jointlab-web/static/media/Journal.db55e397bf9f5ca230b2.md",
     "static/media/template.md": "https://rickyoung221.github.io/jointlab-web/static/media/template.2845b37e53b5455a27e9.md",
+    "static/media/seminar1.md": "https://rickyoung221.github.io/jointlab-web/static/media/seminar1.c97e80b5ef2cb0ef1aca.md",
     "static/media/EducationDevelopmentDoc.md": "https://rickyoung221.github.io/jointlab-web/static/media/EducationDevelopmentDoc.c8c501c23cbbb7a14197.md",
     "index.html": "https://rickyoung221.github.io/jointlab-web/index.html",
     "static/media/workshop1.md": "https://rickyoung221.github.io/jointlab-web/static/media/workshop1.7c93cb6528406de052cd.md"
   },
   "entrypoints": [
     "static/css/main.130c3bb1.css",
-    "static/js/main.7d335aff.js"
+    "static/js/main.15bca5a2.js"
   ]
 }
