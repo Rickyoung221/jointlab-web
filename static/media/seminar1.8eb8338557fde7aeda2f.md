@@ -1,6 +1,6 @@
 # Open Education from an international perspective
 
-![img](https://iite.unesco.org/wp-content/uploads/2021/08/OEP-and-Teacher-Capacity-Building-Forum-800x506.jpg)
+![img](https://iite.unesco.org/wp-content/uploads/2021/08/OEP-and-Teacher-Capacity-Building-Forum-800x506.jpg#pic_center)
 
 ## Open Education Practice and Teacher Capacity Building Forum
 
