@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.0f5723e9.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.60fbadab.js",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.89db9ae4.js",
     "static/media/team_structure.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/team_structure.da2b9e2419dbe4d969b4.jpg",
     "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.4d94ccf13a480f0f1bae.jpg",
     "static/media/logo-white-font.png": "https://rickyoung221.github.io/jointlab-web/static/media/logo-white-font.52c5cbac536c22a1c9f4.png",
@@ -31,19 +31,18 @@
     "static/media/ahmed.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/ahmed.04214842dcd9ba1f5ab8.jpg",
     "static/media/qrcode_smartlearning_BNU_1.jpeg": "https://rickyoung221.github.io/jointlab-web/static/media/qrcode_smartlearning_BNU_1.5e0e88989b4abaf52a8f.jpeg",
     "static/media/Classin-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Classin-logo.6e2a4398c9c63a6454aa.jpg",
-    "static/media/ALESCO-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/ALESCO-logo.18d27b2eb8dd7e747a7d.jpg",
     "static/media/NetDragon-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/NetDragon-logo.341fc80574861ae2c7e6.jpg",
     "static/media/Elernity-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Elernity-logo.fd77d36890d978686df5.jpg",
     "static/media/Journal.md": "https://rickyoung221.github.io/jointlab-web/static/media/Journal.db55e397bf9f5ca230b2.md",
     "static/media/template.md": "https://rickyoung221.github.io/jointlab-web/static/media/template.2845b37e53b5455a27e9.md",
     "static/media/seminar1.md": "https://rickyoung221.github.io/jointlab-web/static/media/seminar1.8eb8338557fde7aeda2f.md",
     "static/media/seminar2.md": "https://rickyoung221.github.io/jointlab-web/static/media/seminar2.306d29858cb1b3c5d671.md",
-    "static/media/EducationDevelopmentDoc.md": "https://rickyoung221.github.io/jointlab-web/static/media/EducationDevelopmentDoc.28b509208edb54e7f094.md",
+    "static/media/Conference.md": "https://rickyoung221.github.io/jointlab-web/static/media/Conference.a7d6cc7af0be3015ecb5.md",
     "index.html": "https://rickyoung221.github.io/jointlab-web/index.html",
     "static/media/workshop1.md": "https://rickyoung221.github.io/jointlab-web/static/media/workshop1.7c93cb6528406de052cd.md"
   },
   "entrypoints": [
     "static/css/main.0f5723e9.css",
-    "static/js/main.60fbadab.js"
+    "static/js/main.89db9ae4.js"
   ]
 }
