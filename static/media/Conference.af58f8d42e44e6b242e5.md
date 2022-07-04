@@ -28,9 +28,9 @@ International Conference on Computers in Education (ICCE 2020, 2019)
 
 ---
 
- ACM SAC 2019 Web-based Technologies for Interactive Computing Education Track. 
- 
- ---
+ACM SAC 2019 Web-based Technologies for Interactive Computing Education Track. 
+
+---
 
 EE TALE 2018, the IEEE Education Society’s flagship Asia-Pacific (IEEE Region 10) conference.
 
