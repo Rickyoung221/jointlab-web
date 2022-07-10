@@ -12,7 +12,7 @@ function WorkshopContent() {
   }, [markdown]);
 
   return (
-    <div className="content">
+    <div className="md-content">
       <ReactMarkdown children={markdown} />
     </div>
   );

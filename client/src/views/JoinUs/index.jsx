@@ -49,7 +49,14 @@ function JoinUs(props) {
   return (
     <>
       <h1> Join Us </h1>
-      <MDBContainer className="size-custom" fluid breakpoint="md">
+      <MDBContainer id='contact' className="joinus" fluid breakpoint="md">
+        <p> As a diverse and dynamic laboratory, SLIBNU-ALECSO Smart Education
+          Joint Lab is looking for researchers and practitioners in the field of
+          education and technology to collaborate with us. We also welcome students
+          with relevant backgrounds or interests to join our team. If you are interested
+          in becoming a partner, collaborator, or team member please leave us your information 
+          and message below. Let’s work together for a more innovative and inclusive education! 
+        </p>
         <form ref={form} onSubmit={sendEmail} name="joinUs">
           <MDBRow>
             <MDBCol md='6'>

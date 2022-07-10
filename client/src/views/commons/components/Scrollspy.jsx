@@ -1,16 +1,33 @@
 import React from "react";
 import { MDBContainer } from "mdb-react-ui-kit";
 import "./Scrollspy.css";
-
 export default function Scrollspy() {
   return (
     <MDBContainer breakpoint="lg">
+      <h1> About Us </h1>
+      <p>
+        The SLIBNU-ALECSO Smart Education Joint Lab is jointly established by
+        the Smart Learning I nstitute of Beijing Normal University (SLIBNU) and
+        the Arab League Education, Culture and Science Organization (ALECSO).
+        Dr. Ahmed Tlili is the Director of the joint lab. The joint laboratory
+        is dedicated to carrying out projects in the fields of education and
+        ICT, and promoting collaborative research between China and the Arab
+        region. The research projects carried out by the joint laboratory
+        include the Arab Region Open Interactive Database (OID) Project, the
+        Arab Region Education Development Research Project, and the Arab and
+        Chinese Science Textbook Comparison Project. In addition, the joint
+        laboratory has held several international forums and webinars, including
+        the ITU-UNESCO Forum on Inclusive Education, to promote exchanges among
+        scholars.
+      </p>
       <h1> Vision </h1>
+
       <div className="text-center">
         <strong>Thriving for a more innovative and inclusive education</strong>
       </div>
       <p>
-        The SLIBNU-ALECSO Smart Education Joint Lab provides academic resources
+        The
+        SLIBNU-ALECSO Smart Education Joint Lab provides academic resources
         and an international exchange platform for students and educators,
         aiming to promote the development of education in China and the Arab
         region, so as to achieve inclusion of education, technological
@@ -34,23 +51,6 @@ export default function Scrollspy() {
         position. Our lab aims to promote a more inclusive and
         technological-supported education in China, the Arab region, and even
         the world.
-      </p>
-      <h1> Recent News </h1>
-
-      <h1> About Us </h1>
-      <p>
-        The SLIBNU-ALECSO Smart Education Joint Lab is jointly established by
-        the Smart Learning Institute of Beijing Normal University (SLIBNU) and
-        the Arab League Education, Culture and Science Organization (ALECSO).
-        The joint laboratory is dedicated to carrying out projects in the fields
-        of education and ICT, and promoting collaborative research between China
-        and the Arab region. The research projects carried out by the joint
-        laboratory include the Arab Region Open Interactive Database (OID)
-        Project, the Arab Region Education Development Research Project, and the
-        Arab and Chinese Science Textbook Comparison Project. In addition, the
-        joint laboratory has held several international forums and webinars,
-        including the ITU-UNESCO Forum on Inclusive Education, to promote
-        exchanges among scholars.
       </p>
     </MDBContainer>
   );

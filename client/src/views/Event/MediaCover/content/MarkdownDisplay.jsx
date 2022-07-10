@@ -16,7 +16,7 @@ function MarkdownDisplay(){
 
 
   return(
-    <div className='content'>
+    <div className='md-content'>
       <ReactMarkdown children={markdown} />
     </div>
   )

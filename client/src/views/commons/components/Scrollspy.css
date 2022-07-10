@@ -1,3 +1,5 @@
-strong.text-center{
+.text-center strong{
   text-align: center;
+  font-size: 120%;
 }
+

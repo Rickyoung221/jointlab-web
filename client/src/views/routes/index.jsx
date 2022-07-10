@@ -5,11 +5,11 @@ import "../../assets/scss/mdb.min.css";
 import "../../assets/scss/custom_variables.scss";
 import Home from "../Home";
 import App from "../App";
-import Avatar from "../Vision/Avatar";
-import AboutUs from "../Vision/AboutUs";
-import Missions from "../Vision/Mission";
-import Partners from "../Vision/Partners";
-import Advisory from "../Vision/AdvisoryBoard";
+import Avatar from "../About/Avatar";
+import AboutUs from "../About/AboutUs";
+import Missions from "../About/Mission";
+import Partners from "../About/Partners";
+import Advisory from "../About/AdvisoryBoard";
 
 import FinishedProjects from "../Research/FinishedProjects";
 import OnGoingProjects from "../Research/OnGoingProjects";
@@ -22,6 +22,8 @@ import Conferences from "../Publication/Conference";
 import Workshop from "../Event/Workshop";
 import WorkshopContent from "../Event/Workshop/content/WorkshopContent";
 import Seminar from "../Event/Seminar";
+import SeminarContent from "../Event/Seminar/content/SeminarContent";
+import SeminarContent2 from "../Event/Seminar/content/SeminarContent2";
 import MediaCover from "../Event/MediaCover";
 import MediaCoverContent from "../Event/MediaCover/content/MarkdownDisplay";
 
@@ -36,12 +38,13 @@ function Router() {
         {/* For backend mananger admin system, would not outlet in the App component */}
         <Route path="/" element={<App />} exact={true}>
           <Route index element={<Home />} />
-          <Route path="vision">
-            <Route path="mission" element={<Missions />} />
-            <Route path="aboutUs" element={<AboutUs />} />
-              <Route path="aboutUs/avatar" element={<Avatar />} />
-              <Route path="aboutUs/advisory-board" element={<Advisory />} />
-              <Route path="aboutUs/partners" element={<Partners />} />
+
+          <Route path="aboutUs" >
+              <Route path="aboutUs" element={<AboutUs />} />
+              <Route path="avatar" element={<Avatar />} />
+              <Route path="advisory-board" element={<Advisory />} />
+              <Route path="partners" element={<Partners />} />
+              <Route path="mission" element={<Missions />} />
           </Route>
 
           <Route path="research">
@@ -62,6 +65,10 @@ function Router() {
             <Route path="workshop/:articleId" element={<WorkshopContent />} />
   
             <Route path="seminar" element={<Seminar />} />
+            <Route path="seminar/1" element={<SeminarContent />} />
+            <Route path="seminar/2" element={<SeminarContent2 />} />
+
+
             <Route path="media-cover" element={<MediaCover />} />
             <Route path="media-cover/:articleId" element={<MediaCoverContent />} />
           </Route>

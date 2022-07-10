@@ -1,4 +1,6 @@
 .carouselImg {
-  height: 583px;
-  width: 1320px;
+  height: auto;
+  width: 1300px;
+  display: inline-block;
 }
+

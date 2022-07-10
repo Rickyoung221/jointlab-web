@@ -1,0 +1,20 @@
+.md-image > .md-meta {
+    border-radius: 3px;
+    font-family: var(--monospace);
+    padding: 2px 0 0 4px;
+    font-size: 0.9em;
+    color: inherit;
+  }
+  /* 图片靠左显示 */
+  /* p .md-image:only-child {
+    width: auto;
+    text-align: left;
+    margin-left: 2rem;
+  } */
+  
+  /* 写![shadow-...]() 显示图片阴影 */
+  img[alt|="shadow"] {
+    box-shadow: var(--shadow);
+  }
+  
+  

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -7,45 +8,43 @@ import {
   MDBCarouselCaption,
   MDBContainer,
 } from "mdb-react-ui-kit";
-import slide_1 from "@img/home/Arab_region_education_technology_industry_investigtion_project.png";
-import slide_2 from "@img/home/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png";
-import slide_3 from "@img/home/Science_textbook_comparison_project.png";
+import slide_1 from "@img/home/edtech-1.png";
+import slide_2 from "@img/home/overview-1.png";
+import slide_3 from "@img/home/textbooks.png";
 import "./Carousel.css";
 
 function Carousel() {
   return (
     <MDBContainer breakpoint="md">
-      <MDBCarousel showControls fade>
+      <MDBCarousel showControls fade className="carouselSize">
         <MDBCarouselInner>
           <MDBCarouselItem className="active" itemID="1">
-            <div className="carouselImg">
-              <MDBCarouselElement src={slide_1} alt="First slide" />
-            </div>
-            <MDBCarouselCaption>
-              <h5 className="text-capitalize">Arab region education technology industry investigation project</h5>
-            </MDBCarouselCaption>
+            <MDBCarouselElement
+              src={slide_1}
+              className="carouselImg"
+              alt="First slide"
+            />
           </MDBCarouselItem>
 
           <MDBCarouselItem itemID="2">
-            <MDBCarouselElement
-              src={slide_2}
-              className="carouselImg"
-              alt="Second Slide"
-            />
-            <MDBCarouselCaption>
-              <h5 className="text-capitalize">GSE 2021: OEP and Teacher Capacity Building Forum</h5>
-            </MDBCarouselCaption>
+            <Link to="/research/finished-projects/education-development">
+              <MDBCarouselElement
+                src={slide_2}
+                className="carouselImg"
+                alt="Second Slide"
+              />
+            </Link>
           </MDBCarouselItem>
 
           <MDBCarouselItem itemID="3">
-            <MDBCarouselElement
-              src={slide_3}
-              alt="Third Slide"
-              className="carouselImg"
-            />
-            <MDBCarouselCaption>
-              <h5 className="text-capitalize">Science textbook comparison project</h5>
-            </MDBCarouselCaption>
+            <Link to="/research/ongoing-projects">
+              <MDBCarouselElement
+                src={slide_3}
+                alt="Third Slide"
+                className="carouselImg"
+              />
+            </Link>
+            <MDBCarouselCaption></MDBCarouselCaption>
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>

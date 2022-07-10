@@ -14,10 +14,10 @@ function FooterPage(){
     },
   ];
   return(
-    <MDBFooter >
-      <MDBContainer fluid className=" text-center" >
+    <MDBFooter className='text-center text-lg-left' >
+      <MDBContainer fluid className="text-center" >
         <MDBRow>
-          <MDBCol md="6">
+          <MDBCol md="5">
             <h4 className="text-uppercase fw-bold mb-4" > Contact </h4>
               {contact.map((item, index) =>
                 <div key={index} >
@@ -32,7 +32,7 @@ function FooterPage(){
 
           <MDBCol md="6">
             <section id='social-media' className='mb-4'>
-              <h4>Get connected with us:</h4>
+              <h5>Get connected with us:</h5>
               <a
                 className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#3b5998' }}

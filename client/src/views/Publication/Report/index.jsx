@@ -28,7 +28,7 @@ function Report(){
               Specifically, this handbook can help other educators, researchers and practitioners implement similar case studies in their context.
             </p>
             <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200427/2_1004419561.pdf'> Chinese </a>
-            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200407/1_1820129841.pdf'> Arabic </a>
+            <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200611/2_2157063671.pdf'> Arabic </a>
             <a className='pdf' target='_blank' rel="noreferrer" href='http://sli.bnu.edu.cn/uploads/soft/200407/1_1833592181.pdf'> English</a>
           </MDBContainer>
       </section>
