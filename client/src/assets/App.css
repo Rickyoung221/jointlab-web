@@ -1,34 +1,25 @@
 @font-face {
-  font-family: 'Intel';
-  src: url('./font/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-family: "Intel";
+  src: url("./font/Inter-VariableFont_slnt,wght.ttf") format("truetype");
 }
 
-.App-logo {
-  font-family: 'Intel';
-  font-weight: 3000;
-  font-size: 200%;
-  color:white;
-
-  pointer-events:none;
-  -webkit-user-select: none;
+li {
+  text-align: left;
 }
-
-li{text-align:left}
 
 .Web-body {
-    min-height:600px;
-    margin-bottom:auto;
+  min-height: 600px;
+  margin-bottom: auto;
 }
 
-.main-content{
-    margin-top:50px;
-    margin-left: 220px;
-    margin-right:5%;
+.main-content {
+  margin-top: 50px;
+  margin-left: 220px;
+  margin-right: 5%;
 }
-
 
 :root {
-  --accent-color: #696969; /* nice */
+  --accent-color: #413535; /* nice */
   --primary-colour: #306797; /* <> */
   --background-color: white;
   --border-color: #dbdbdb;
@@ -40,7 +31,8 @@ li{text-align:left}
   --control-text-color: #667176;
   --side-bar-bg-color: #fafafa;
   --hr-color: var(--primary-colour);
-  --body-font: "Nunito", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --body-font: "Nunito", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   --heading-font: "Roboto Slab", serif;
   --border-radius: 2px;
   --document-horizontal-margin: 80px;
@@ -56,21 +48,21 @@ li{text-align:left}
   --main-content-margin: 0 auto;
   --main-content-max-width: 100ch;
   --monospace-font-size: 15px;
-  --monospace-font: "FiraCode", "Inconsolata", "Consolas", "Menlo", "Liberation Mono", Courier, monospace;
+  --monospace-font: "FiraCode", "Inconsolata", "Consolas", "Menlo",
+    "Liberation Mono", Courier, monospace;
   --monospace-line-height: 1.4;
   --monospace: var(--monospace-font); /* Fixes source code mode */
   --nav-width: 200px;
   --vertical-padding: 40px;
 }
 
-p{
-	font-size: 1rem;
-	line-height: 1.6rem;
+p {
+  font-size: 1rem;
+  line-height: 1.6rem;
 }
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -78,46 +70,44 @@ code {
 headers settings
 */
 h1 {
-	font-size: 2.2rem;
-	text-align: center;
-	text-shadow: 0.15rem 0.15rem 0.3rem rgb(187, 187, 187);
+  font-size: 2.2rem;
+  text-align: center;
 }
+
 h2 {
-	font-size: 1.8rem;
-	margin-top: 1.8rem;
-	margin-left: -1.5rem;
-	margin-right: -1.5rem;
-	background-color: var(--h-bg-color);
-	padding-left: 1rem;
-	padding-right: 1rem;
-	border-left: 0.5rem solid var(--h-border-color);
-	border-radius: 0.4rem;
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  background-color: var(--h-bg-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 0.5rem solid var(--h-border-color);
+  border-radius: 0.4rem;
   text-align: center;
 }
 
 h1 {
-  content: '';
+  content: "";
   text-align: center;
   font-size: var(--h1-fontsize);
   margin: 1.5rem 10%;
 }
 
-
 h3 {
-	font-size: 1.6rem;
-	text-decoration: underline double var(--h-border-color) 0.15rem;
+  font-size: 1.6rem;
+  text-decoration: underline double var(--h-border-color) 0.15rem;
 }
 h4 {
-	text-decoration: underline dotted var(--h-border-color) 0.2rem;
+  text-decoration: underline dotted var(--h-border-color) 0.2rem;
 }
 
 html {
-	font-size: 19px;
+  font-size: 19px;
 }
 
-
 body {
-  font-family: 'Intel', sans-serif;
+  font-family: "Intel", sans-serif;
 }
 
 /* ------ */

@@ -2,6 +2,7 @@
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  max-height: auto;
 }
 
 .nav-link {
@@ -17,8 +18,10 @@
 }
 
 .App-logo {
-  width: 150px;
+  width: 350px;
   height: auto;
+  -webkit-user-select: none;
+  pointer-events:none;
 }
 
 .selected {

@@ -1,10 +1,9 @@
-
-import data_screenshot from '@img/research/4-Open-Interactive-Database.png';
-import education_development from '@img/research/5-Education-development-in-the-Arab-region.png';
-import Sidebar from '../components/Sidebar';
-import { MDBContainer } from 'mdb-react-ui-kit';
-import { Link } from 'react-router-dom';
-import './FinishedProjects.css';
+import data_screenshot from "@img/research/4-Open-Interactive-Database.png";
+import education_development from "@img/research/5-Education-development-in-the-Arab-region.png";
+import Sidebar from "../components/Sidebar";
+import { MDBContainer } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
+import "./FinishedProjects.css";
 
 function FinishedProjects() {
   return (
@@ -19,7 +18,7 @@ function FinishedProjects() {
               className="data_screenshot float-left"
               alt="database"
             />
-            <h3> Open Interactive Database </h3>
+            <a href='http://observatory.alecso.org/Data/en/' rel="noreferrer" target="_blank" > <h3> Open Interactive Database </h3> </a>
             <p>
               In line with the Open Science wave, an Open Interactive Database
               which contains detailed statistics related to the Arab region——22
@@ -48,28 +47,17 @@ function FinishedProjects() {
             <h3> Education Development in the Arab Region </h3>
           </Link>
           <p>
-            This book aims to provide a comprehensive understanding of
-            educational development in the Arab region and reveals that many
-            Arab countries, especially sub-Saharan African countries, have made
-            significant efforts to improve educational opportunities over the
-            past decade. This book could help to achieve the Sustainable
-            Development Goals put forward by United Nation in the Arab region.
-            It could also provide insights for policy makers, researchers, and
-            educators who are interested in the education development in the
-            Arab region. We hope that this book could promote further research
-            and cooperation between China and the Arab region in the field of
-            education. The current influence of the book includes
-            <ul className="number">
-              <li>
-                The book has been published on SLIBNU, ALECSO and UNESCO IITE
-                websites;
-              </li>
-              <li>
-                The book has been acquired on ResearchGate read it more than 200
-                times;
-              </li>
-              <li>The book was sent to the Egyptian Ministry of Education.</li>
-            </ul>
+            A book titled An Overview of Education Development in the Arab
+            Region: Insights and Recommendations Towards Sustainable Development
+            Goals (SDG) is released by SLIBNU-ALECSO ‘Smart Education’ Joint
+            Lab. The book is an outcome of the Open Interactive Database
+            Project, in collaboration between the Smart Learning Institute of
+            Beijing Normal University and the Arab League Educational, Cultural
+            and Scientific Organization. This book aims to provide a
+            comprehensive understanding of the education development in the Arab
+            region. The book reveals that major efforts have been made by many
+            Arab countries, especially those in Sub-Saharan Africa, over the
+            past decade to improve education access.
           </p>
         </MDBContainer>
       </div>

@@ -1,8 +1,8 @@
 import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
-import mdFilePath from "./workshop1.md";
+import mdFilePath from "./seminar1.md";
 
-function WorkshopContent() {
+function SeminarContent() {
   const [markdown, setMdFile] = useState(null);
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -18,4 +18,4 @@ function WorkshopContent() {
   );
 }
 
-export default WorkshopContent;
+export default SeminarContent;

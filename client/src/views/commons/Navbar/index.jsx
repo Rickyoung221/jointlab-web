@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {
   MDBContainer,
   MDBNavbar,
@@ -11,20 +11,20 @@ import {
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import "./Navbar.css";
-import logo from "@img/common/logo.png";
+import logo from "@img/common/logo-white-font.png";
 
 function NavbarPage() {
   const [showBasic, setShowBasic] = useState(false);
-  const bgBlue = { backgroundColor: "#2974AE" };
+  const bgBlue = { backgroundColor: "#1F4E79" };
   const notJump = (e) => {
     e.preventDefault();
   };
 
   return (
     <div className="nav-sticky">
-      <MDBNavbar expand="lg" dark style={bgBlue} sticky>
+      <MDBNavbar className='navbar-height' expand="lg" dark style={bgBlue} sticky>
         <MDBContainer fluid>
-          <img src={logo} className="App-logo" alt="logo" />
+          <Link to='/'> <img src={logo} className="App-logo" alt="logo" /> </Link>
           <MDBNavbarToggler
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
@@ -57,10 +57,10 @@ function NavbarPage() {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    to="/vision"
+                    to="/aboutUs"
                     onClick={notJump}
                   >
-                    About Us
+                    About
                   </NavLink>
                   <ul
                     className="dropdown-menu dropdown-primary"

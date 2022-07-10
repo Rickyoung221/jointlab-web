@@ -14,7 +14,6 @@ import './Partners.css';
 import NetDragonLogo from '@img/vision/partners/NetDragon-logo.jpg';
 import ElernityLogo from '@img/vision/partners/Elernity-logo.jpg';
 import ClassinLogo from '@img/vision/partners/Classin-logo.jpg';
-import AlecsoLogo from '@img/vision/partners/ALESCO-logo.jpg';
 
 function partnersPage() {
   return (
@@ -47,14 +46,7 @@ function partnersPage() {
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                    NetDragon Websoft Holdings Limited (Stock Code: 00777. HK),
-                    established in 1999, is a prominent innovator in China’s
-                    online gaming and education industries. <br />
-                    As the first Chinese game maker that successfully expanded
-                    outside of its home market, NetDragon has localized its
-                    products in over 10 different langauges, including English,
-                    French, Spanish and Arabic, and has reached over 65 million
-                    users covering 180 markets.
+                  NetDragon Websoft Holdings Limited, established in 1999, is a prominent innovator in China’s online gaming and education industries. As the first Chinese game maker that successfully expanded outside of its home market, NetDragon has localized its products in over 10 different languages, including English, French, Spanish and Arabic, and has reached over 65 million users covering 180 markets.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>
@@ -125,8 +117,7 @@ function partnersPage() {
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                    ClassIn is a leading edtech company that provides a one-stop
-                    solution for digital learning.
+                  ClassIn is a groundbreaking online teaching platform that enables teachers and students from across the globe to come together, face-to-face, and learn in a collaborative online environment. ClassIn is built for teachers and schools and provides a one-stop solution for digital learning. It also functions as a learning management system, including the ability to create classes, track attendance and submit homework.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>
@@ -134,44 +125,6 @@ function partnersPage() {
           </MDBCard>
         </MDBContainer>
 
-        <MDBContainer fluid breakpoint="md" className="card-position">
-          <MDBCard className="card-size">
-            <MDBRow className="g-0">
-              <MDBCol md="4">
-                <MDBCardImage
-                  className="rounded img-size "
-                  src={AlecsoLogo}
-                  alt="ALECSO"
-                  fluid
-                />
-              </MDBCol>
-              <MDBCol md="8">
-                <MDBCardBody>
-                  <a
-                    target="_blank"
-                    href="http://www.alecso.org "
-                    rel="noreferrer"
-                    className="stretched-link"
-                  >
-                    <MDBCardTitle className="card-title text-primary">
-                      ALECSO
-                      <MDBIcon fas icon="link" size="xs" color="primary" />
-                    </MDBCardTitle>
-                  </a>
-                  <MDBCardText className="intro-color">
-                    ALECSO, established in July 1970, is a governmental
-                    organization working under the umbrella of the Arab League
-                    and it has the membership of 22 Arab countries. ALECSO is
-                    endeavoring to conduct and coordinate Pan-Arab projects
-                    related to Educational, Cultural, Scientific and ICT fields
-                    and it is premised on the values of tolerance, moderation,
-                    respect of others and cultural diversity.
-                  </MDBCardText>
-                </MDBCardBody>
-              </MDBCol>
-            </MDBRow>
-          </MDBCard>
-        </MDBContainer>
       </div>
     </>
   );

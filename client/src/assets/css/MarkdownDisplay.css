@@ -1,21 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Noticia+Text|Lalezar');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
-.content body {
+.md-content body {
   font-family: 'Intel', sans-serif;
 }
 
 :root{
   --padding: 21px;
   --bg-color: #f5f8eb;
-  --text-color: #0a643a;
   --accent-color: #a0bb2e;
   --font-family: 'Intel';
-  --font-display: 'Lalezar';
+  --font-display: 'Intel';
 }
 
 
-.content{
+.md-content{
   max-width: 1000px;
   margin: 0 auto;
   padding: var(--padding);
@@ -23,14 +20,14 @@
   font-family: var(--font-family);
   line-height: 2;
   font-size: 21px;
-
+  text-align: justify;
 }
 
-.content h1{
+.md-content h1{
   font-size:1.5em;
 }
 
-.content h2{
+.md-content h2{
   font-size:1.2em;
   transform: translateX(-5px);
   font-family: var(--font-display);
@@ -38,25 +35,28 @@
 }
 
 
-.content img{
-  max-width:1000px;
+.md-content img{
+  max-width:2000px;
   height:auto;
+  margin-left: auto;
+  margin-right:auto;
   text-align: center;
+  display: block;
 }
 
 a.article{
   color: var(--text-color);
 }
 
-.content strong{
+.md-content strong{
   display: inline-block;
   transform: translateX(-5px);
-  font-size: 130%;
+  font-size: 80%;
   line-height: 1;
   font-family: var(--font-display);
 }
 
-.content strong:before{
+.md-content strong:before{
   content: '';
   margin-right: 5px;
   margin-top: 34px;
