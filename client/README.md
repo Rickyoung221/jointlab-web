@@ -23,7 +23,7 @@ yarn deploy
 
 ## What is included
 - 前端框架：React
-- UI 框架：MDBoostreap
+- UI 库：MDBoostreap：https://mdbootstrap.com/docs/react/
 - 后端框架：Express.js
 
 一些第三方模块的使用：
@@ -35,6 +35,8 @@ yarn deploy
 - react-markdown 渲染markdown的模块
 - emailjs/browser： 第三方邮件托管服务
 - mdb-react-ui-kit：MDB ui库
+- 国际化库：i18next
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
