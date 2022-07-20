@@ -2,7 +2,6 @@ import { MDBContainer, MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import './Avatar.css';
 import Sidebar from '../components/Sidebar';
 import AhmedImg from '@img/vision/avatar/ahmed.jpg';
-import YipingImg from '@img/vision/avatar/yiping.jpg';
 import Zhiminimg from '@img/vision/avatar/zhimin.jpg';
 import JialuImg from '@img/vision/avatar/jialu.jpg';
 import RickImg from '@img/vision/avatar/rick.jpeg';
@@ -28,19 +27,7 @@ function avatarPage() {
               </h5>
               <p className="text-muted">Lab Director</p>
             </MDBCol>
-            <MDBCol md="4">
-              <img
-                src={YipingImg}
-                className="rounded-circle mb-3 avatar-custom"
-                alt="Avatar-Yiping"
-              />
-              <h5 className="mb-2">
-                <strong>Yiping Wang</strong>
-              </h5>
-              <p className="text-muted">
-                Senior Research Assistant & Project Manager
-              </p>
-            </MDBCol>
+
             <MDBCol md="4">
               <img
                 src={Zhiminimg}
@@ -52,10 +39,6 @@ function avatarPage() {
               </h5>
               <p className="text-muted">Research Assistant</p>
             </MDBCol>
-          </MDBRow>
-          <br />
-          <br />
-          <MDBRow>
             <MDBCol md="4">
               <img
                 src={JialuImg}
@@ -67,6 +50,11 @@ function avatarPage() {
               </h5>
               <p className="text-muted">Research Assistant</p>
             </MDBCol>
+          </MDBRow>
+          <br />
+          <br />
+          <MDBRow>
+
             <MDBCol md="4">
               <img
                 src={RickImg}
