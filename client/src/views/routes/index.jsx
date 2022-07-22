@@ -30,7 +30,6 @@ import MediaCoverContent from "../Event/MediaCover/content/MarkdownDisplay";
 import JoinUs from "../JoinUs";
 import NotFound from "../NotFound";
 
-
 //Todo: 试试优化代码改成只需要用一个sidebar组件, 使用outlet
 function Router() {
   return (

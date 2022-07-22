@@ -12,7 +12,8 @@ module.exports = {
       "@api": resolve("src/api"),
       "@views": resolve("src/views"),
       "@admin": resolve("src/admin"),
-      "@components:": resolve("src/views/commons/components")
+      "@components:": resolve("src/views/commons/components"),
+      "@i18n:": resolve("src/i18n")
     },
   },
 };

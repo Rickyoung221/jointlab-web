@@ -1,0 +1,43 @@
+{
+  "home":{
+    "title":"الرئيسية",
+    "content":{
+    }
+  },
+  "about":{
+    "title":"معلومات عنا",
+    "menu":{
+      "vision&mission":"الرؤية والرسالة",
+      "team-members":"أعضاء الفريق",
+      "advisory-structure": "هيكل استشاري",
+      "our-partners":"شركاؤنا"
+    }
+  },
+  "research":{
+    "title":"الأبحاث",
+    "menu":{
+      "ongoing-projects":"مشاريع جارية",
+      "finished-projects":"مشاريع منتهية"
+    }
+  },
+  "publications":{
+    "title":"المنشورات",
+    "menu": {
+      "reports": "تقارير",
+      "journal-articles": "مقالات صحفية",
+      "conferences": "مؤتمرات"
+    }
+  },
+  "events":{
+    "title": "الأحداث",
+    "menu": {
+      "workshop": "الحلقة الدراسية الحرة",
+      "seminar": "ندوات",
+      "media-cover": "تغطية إعلامية"
+    }
+  },
+  "joinus":{
+    "title": "انضم إلينا",
+    "introduction": ""
+  }
+}

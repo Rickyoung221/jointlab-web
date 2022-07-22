@@ -1,0 +1,40 @@
+{
+  "home":{
+    "title":"主页",
+    "content":"I am the home page"
+  },
+  "about":{
+    "title":"关于我们",
+    "menu":{
+      "vision&mission":"愿景和使命",
+      "team-members":"团队成员",
+      "advisory-structure": "咨询结构",
+      "our-partners":"合作方"
+    }
+  },
+  "research":{
+    "title":"调查",
+    "ongoing-projects": "进行中项目",
+    "finished-projects": "已完成项目"
+  },
+  "publications":{
+    "title":"出版物",
+    "menu": {
+      "reports": "报告",
+      "journal-articles": "期刊文章",
+      "conferences": "会议"
+    }
+  },
+  "events":{
+    "title": "活动",
+    "menu": {
+      "workshop": "研习会",
+      "seminar": "研讨会",
+      "media-cover": "媒体报道"
+    }
+  },
+  "joinus":{
+    "title": "加入我们",
+    "introduction":""
+  }
+}

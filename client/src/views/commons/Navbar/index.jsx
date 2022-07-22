@@ -12,8 +12,12 @@ import {
 } from "mdb-react-ui-kit";
 import "./Navbar.css";
 import logo from "@img/common/logo-white-font.png";
+import LanguageSwitch from "./LanguageSwitch";
+import { withTranslation } from 'react-i18next';
 
-function NavbarPage() {
+
+
+function NavbarPage({t}) {
   const [showBasic, setShowBasic] = useState(false);
   const bgBlue = { backgroundColor: "#1F4E79" };
   const notJump = (e) => {
@@ -43,7 +47,7 @@ function NavbarPage() {
                     }
                     to="/"
                   >
-                    Home
+                    {t("home.title")}
                     <span className="sr-only">(current)</span>
                   </NavLink>
                 </div>
@@ -60,25 +64,24 @@ function NavbarPage() {
                     to="/aboutUs"
                     onClick={notJump}
                   >
-                    About
+                    {t("about.title")}
                   </NavLink>
                   <ul
                     className="dropdown-menu dropdown-primary"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <NavLink to="/aboutUs/mission" className="dropdown-item">
-                      Vision & Mission
+                    {t("about.menu.vision&mission")}
                     </NavLink>
                     <NavLink to="/aboutUs/avatar" className="dropdown-item">
-                      Team Members
+                    {t("about.menu.team-members")}
                     </NavLink>
                     <NavLink to="/aboutUs/advisory-board" className="dropdown-item">
-                      Advisory Sturcture
+                    {t("about.menu.advisory-structure")}
                     </NavLink>
                     <NavLink to="/aboutUs/partners" className="dropdown-item">
-                      Our Partners
+                    {t("about.menu.our-partners")}
                     </NavLink>
-
                   </ul>
                 </MDBDropdown>
               </MDBNavbarItem>
@@ -94,7 +97,7 @@ function NavbarPage() {
                     to="/research"
                     onClick={notJump}
                   >
-                    Research
+                    {t("research.title")}
                   </NavLink>
                   <ul
                     className="dropdown-menu dropdown-primary"
@@ -104,13 +107,13 @@ function NavbarPage() {
                       to="/research/ongoing-projects"
                       className="dropdown-item"
                     >
-                      Ongoing Projects
+                    {t("research.menu.ongoing-projects")}
                     </NavLink>
                     <NavLink
                       to="/research/finished-projects"
                       className="dropdown-item"
                     >
-                      Finished Projects
+                    {t("research.menu.finished-projects")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -127,7 +130,7 @@ function NavbarPage() {
                     aria-expanded="false"
                     onClick={notJump}
                   >
-                    Publications
+                    {t("publications.title")}
                   </NavLink>
                   <ul
                     className="dropdown-menu dropdown-primary"
@@ -137,20 +140,19 @@ function NavbarPage() {
                       to="/publication/reports"
                       className="dropdown-item"
                     >
-                      {" "}
-                      Reports{" "}
+                    {t("publications.menu.reports")}
                     </NavLink>
                     <NavLink
                       to="/publication/journal-articles"
                       className="dropdown-item"
                     >
-                      Journal Articles
+                    {t("publications.menu.journal-articles")}
                     </NavLink>
                     <NavLink
                       to="/publication/conferences"
                       className="dropdown-item"
                     >
-                      Conferences
+                    {t("publications.menu.conferences")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -167,20 +169,20 @@ function NavbarPage() {
                     to="/Events"
                     onClick={notJump}
                   >
-                    Events
+                    {t("events.title")}
                   </NavLink>
                   <ul
                     className="dropdown-menu dropdown-primary"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <NavLink to="/events/workshop" className="dropdown-item">
-                      Workshop
+                    {t("events.menu.workshop")}
                     </NavLink>
                     <NavLink to="/events/seminar" className="dropdown-item">
-                      Seminar
+                    {t("events.menu.seminar")}
                     </NavLink>
                     <NavLink to="/events/media-cover" className="dropdown-item">
-                      Media Cover
+                    {t("events.menu.media-cover")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -189,12 +191,16 @@ function NavbarPage() {
               <MDBNavbarItem>
                 <div className="nav-item active">
                   <NavLink className="nav-link" to="/joinUs">
-                    Join Us <span className="sr-only">(current)</span>
+                  {t("joinus.title")} 
+                  <span className="sr-only">(current)</span>
                   </NavLink>
                 </div>
               </MDBNavbarItem>
-
             </MDBNavbarNav>
+
+            <LanguageSwitch />
+
+              
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
@@ -202,4 +208,4 @@ function NavbarPage() {
   );
 }
 
-export default NavbarPage;
+export default withTranslation()(NavbarPage);
