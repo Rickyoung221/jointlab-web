@@ -12,8 +12,9 @@ import slide_1 from "@img/home/edtech-1.png";
 import slide_2 from "@img/home/overview-1.png";
 import slide_3 from "@img/home/textbooks.png";
 import "./Carousel.css";
+import { withTranslation } from 'react-i18next';
 
-function Carousel() {
+function Carousel({t}) {
   return (
     <MDBContainer breakpoint="md">
       <MDBCarousel showControls fade className="carouselSize">
@@ -52,4 +53,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default withTranslation()(Carousel);
