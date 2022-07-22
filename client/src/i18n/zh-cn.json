@@ -14,8 +14,10 @@
   },
   "research":{
     "title":"调查",
-    "ongoing-projects": "进行中项目",
-    "finished-projects": "已完成项目"
+    "menu":{
+      "ongoing-projects": "进行中项目",
+      "finished-projects": "已完成项目"
+    }
   },
   "publications":{
     "title":"出版物",
@@ -35,6 +37,21 @@
   },
   "joinus":{
     "title": "加入我们",
-    "introduction":""
+    "introduction":"作为一个多元化且充满活力的实验室，SLIBNU-ALECSO智慧教育联合实验室正在寻找教育和技术领域的研究人员和从业者与我们合作。我们也欢迎具有相关背景或兴趣的学生加入我们的团队。如果您有兴趣成为合作伙伴、合作者或团队成员，请在下方留下您的信息和信息。让我们一起为更具创新性和包容性的教育而努力。",
+    "form":{
+      "first-name":"* 名",
+      "last-name":"* 姓",
+      "email":"* 电子邮箱",
+      "phone":"电话号",
+      "country":"国籍",
+      "institution":"* 机构",
+      "job-title":"* 职位",
+      "research-field":"研究领域",
+      "message":"* 消息"
+    }
+  },
+  "common":{
+    "submit":"提交",
+    "submitted":"已提交"
   }
 }

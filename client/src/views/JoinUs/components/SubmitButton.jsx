@@ -1,4 +1,5 @@
 import { MDBBtn } from 'mdb-react-ui-kit';
+import { withTranslation } from 'react-i18next';
 
 function SubmitButton(props) {
   return (
@@ -9,8 +10,8 @@ function SubmitButton(props) {
       onClick={props.onClick}
       disabled={props.validation}
     >
-      SUBMIT
+      Submit
     </MDBBtn>
   );
 }
-export default SubmitButton;
+export default withTranslation()(SubmitButton);

@@ -37,6 +37,21 @@
   },
   "joinus": {
     "title": "Join Us",
-    "introduction": "As a diverse and dynamic laboratory, SLIBNU-ALECSO Smart Education Joint Lab is looking for researchers and practitioners in the field of education and technology to collaborate with us. We also welcome students with relevant backgrounds or interests to join our team. If you are interested in becoming a partner, collaborator, or team member please leave us your information and message below. Let’s work together for a more innovative and inclusive education!"
+    "introduction": "As a diverse and dynamic laboratory, SLIBNU-ALECSO Smart Education Joint Lab is looking for researchers and practitioners in the field of education and technology to collaborate with us. We also welcome students with relevant backgrounds or interests to join our team. If you are interested in becoming a partner, collaborator, or team member please leave us your information and message below. Let’s work together for a more innovative and inclusive education!",
+    "form":{
+      "first-name":"* First Name",
+      "last-name":"* Last Name",
+      "email":"* Email Address",
+      "phone":"Phone",
+      "country":"Country",
+      "institution":"* Institution",
+      "job-title":"* Job Title",
+      "research-field":"Research Field",
+      "message":"Message"
+    }
+  },
+  "common":{
+    "submit":"Submit",
+    "submitted":"Submitted"
   }
 }

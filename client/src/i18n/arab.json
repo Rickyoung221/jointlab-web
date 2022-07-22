@@ -38,6 +38,17 @@
   },
   "joinus":{
     "title": "انضم إلينا",
-    "introduction": ""
+    "introduction": "",
+    "form":{
+      "first-name":"",
+      "last-name":"",
+      "email":"",
+      "phone":"",
+      "country":"",
+      "institution":"",
+      "job-title":"",
+      "research-field":"",
+      "message":""
+    }
   }
 }
