@@ -18,35 +18,66 @@
   },
   "about":{
     "title":"معلومات عنا",
-    "menu":{
-      "vision&mission":"الرؤية والرسالة",
+      "vision&mission":{
+        "title":"الرؤية والرسالة",
+        "mission":{
+
+        }
+      },
       "team-members":"أعضاء الفريق",
       "advisory-structure": "هيكل استشاري",
       "our-partners":"شركاؤنا"
-    }
+    
   },
   "research":{
     "title":"الأبحاث",
-    "menu":{
+
       "ongoing-projects":"مشاريع جارية",
       "finished-projects":"مشاريع منتهية"
-    }
+    
   },
   "publications":{
     "title":"المنشورات",
-    "menu": {
-      "reports": "تقارير",
+
+      "reports":{
+        "title":"تقارير",
+        "part1": {
+          "title":"",
+          "content":""
+        },
+        "part2": {
+          "title":"",
+          "content":""
+        },
+        "part3": {
+          "title":"",
+          "content":""
+        },
+        "part4": {
+          "title":"",
+          "content":""
+        },
+        "part5": {
+          "title":"",
+          "content":""
+        },
+        "part6": {
+          "title":"",
+          "content":""
+        }
+      },
+
       "journal-articles": "مقالات صحفية",
       "conferences": "مؤتمرات"
-    }
+
   },
   "events":{
     "title": "الأحداث",
-    "menu": {
+
       "workshop": "الحلقة الدراسية الحرة",
       "seminar": "ندوات",
       "media-cover": "تغطية إعلامية"
-    }
+    
   },
   "joinus":{
     "title": "انضم إلينا",

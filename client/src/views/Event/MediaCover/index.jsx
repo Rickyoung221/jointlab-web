@@ -11,8 +11,8 @@ function MediaCover({t}) {
       <div className="main-content">
         <ItemList
           img={completition}
-          title="The Global Finals of 2021 Global Competition on Design for Future Education Successfully Held at Beijing Normal University"
-          txt="Co-organize the Global Competition on Design for Future Education in order to cultivate talents worldwide and in the Arab region."
+          title= {t("events.media-cover.m1.title")}
+          txt={t("events.media-cover.m1.introduction")}
           url="1"
         />
       </div>

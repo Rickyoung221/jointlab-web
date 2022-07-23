@@ -2,8 +2,9 @@ import React from 'react';
 import './Footer.css';
 import {MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon} from 'mdb-react-ui-kit';
 import qrcodeWeixin from '@img/home/qrcode_smartlearning_BNU_1.jpeg';
+import { withTranslation } from 'react-i18next';
 
-function FooterPage(){
+function FooterPage({t}){
   const contact = [
     {address: '12F, Block A, Jingshi Technology Building, No. 12 Xueyuan South Road, Haidian District, Beijing, China',
      phone:'+86 10 58807264',
@@ -18,11 +19,11 @@ function FooterPage(){
       <MDBContainer fluid className="text-center" >
         <MDBRow>
           <MDBCol md="5">
-            <h4 className="text-uppercase fw-bold mb-4" > Contact </h4>
+            <h4 className="text-uppercase fw-bold mb-4" > {t("common.contact.title")} </h4>
               {contact.map((item, index) =>
                 <div key={index} >
                   <li className="list-unstyled">
-                    <i className='fas fa-home me-3'></i> {item.address}. Postcode: {item.postcode}
+                    <i className='fas fa-home me-3'></i> {t("common.contact.address")}
                   </li>
                   <li className="list-unstyled"> <i className='fas fa-phone me-3'></i> {item.phone} </li>
                   <li className="list-unstyled"> <i className='fas fa-envelope me-3'></i> {item.email} </li>
@@ -32,7 +33,7 @@ function FooterPage(){
 
           <MDBCol md="6">
             <section id='social-media' className='mb-4'>
-              <h5>Get connected with us:</h5>
+              <h5>{t("common.contact.phrase")}</h5>
               <a
                 className='btn btn-primary btn-floating m-1'
                 style={{ backgroundColor: '#3b5998' }}
@@ -86,4 +87,4 @@ function FooterPage(){
   );
 }
 
-export default FooterPage;
+export default withTranslation()(FooterPage);

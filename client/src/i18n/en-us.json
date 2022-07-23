@@ -103,7 +103,30 @@
     "title": "Publications",
     "reports": {
       "title": "Reports",
-      "content": ""
+      "part1": {
+        "title":"Handbook on Facilitating FlHnaHankexible Learning in COVID 19 Outbreak",
+        "content":"Inspired by the united solidarity and innovative experiences of millions of teachers and students, this handbook aims to define the term “flexible learning” with vivid examples and touching stories. It describes several implemented flexible online learning strategies during the COVID-19 outbreak. These strategies are presented based on six dimensions, namely (a) infrastructure, (b) learning tools, (c) learning resources, (d) teaching and learning methods, (e) services for teachers and students, and (f) cooperation between enterprise, government, and schools. Specifically, this handbook can help other educators, researchers and practitioners implement similar case studies in their context."
+      },
+      "part2": {
+        "title":"Guidance on Providing Open and Distance Learning for Students with Disabilities during School Closures",
+        "content":"This handbook discusses open and distance learning for students with disabilities during COVID-19, through vivid stories and experiences. Particularly, it describes, through illustrative stories, innovative approaches on how to design learning activities in open and distance learning environments for students with disabilities. Additionally, this handbook provides guidelines on designing accessible learning materials based on Universal Design (UD). Finally, it provides guidelines for different stakeholders, including parents, policy makers, teachers and designers on how to facilitate open and distance learning for students with disabilities."
+      },
+      "part3": {
+        "title":"Guidance on Open Educational Practices during School Closure: Utilizing OER under COVID-19 Pandemic in line with UNESCO OER Recommendation",
+        "content":"This handbook discusses the use of OEP and OER during COVID-19 outbreak through global vivid stories and experiences, and in line with the five UNESCO objectives. It also discusses OER competencies for OEP. Finally, this handbook provides guidelines to both teachers and learners to facilitate OEP and OER application."
+      },
+      "part4": {
+        "title":"Interactive Book on Artificial Intelligence to Combat Pandemics",
+        "content":"This book introduces AI to children, between the age of 9 and 15, in an easy and fun way. It also presents vivid stories about some AI-based solutions that were developed to combat the pandemic. Furthermore, this book presents a hands-on learning experience about AI by showing simple programming code that children could use and implement on the JupyterLab environment."
+      },
+      "part5": {
+        "title":"Guidance on Active Learning at Home during Educational Disruption: Promoting",
+        "content":"A SCIENCE model of learning actively at home during school closures is proposed for students. The SCIENCE model consists of seven elements: Scheduling learning and playing in balance , Choosing learning resources on demand, Inspiring the study from playing , Engaged in learning by self-monitoring, Nourishing learning ability with e-assessment, Carrying out reflection on learning methods , Exercising daily and moderately. Tips and stories on student’s learning associated with active learning are presented. In the end, suggestions on how to maintain physical and mental health are also discussed."
+      },
+      "part6": {
+        "title":"An Overview of Education Development in the Arab Region: Insights and Recommendations Towards Sustainable Development Goals (SDG)",
+        "content":"This book aims to provide a comprehensive understanding of educational development in the Arab region and reveals that many Arab countries, especially sub-Saharan African countries, have made significant efforts to improve educational opportunities over the past decade. This book could help to achieve the Sustainable Development Goals put forward by United Nation in the Arab region. It could also provide insights for policy makers, researchers, and educators who are interested in the education development in the Arab region. We hope that this book could promote further research and cooperation between China and the Arab region in the field of education. The current influence of the book includes 1) the book has been published on SLIBNU, ALECSO and UNESCO IITE websites; 2) the book has been acquired on ResearchGate read it more than 200 times; 3) The book was sent to the Egyptian Ministry of Education."
+      }
     },
     "journal-articles": {
       "title": "Journal Articles",
@@ -111,7 +134,20 @@
     },
     "conferences": {
       "title": "Conferences",
-      "content": ""
+      "content":  {
+        "introduction":"The director of SLIBNU-ALECSO Smart Education Joint lab has served as chair, committee member in the following conferences:",
+        "1":"17th, 18th, 19th 21st International Conference on Advanced Learning Technologies (ICALT)",
+        "2":"8th, 9th, 10th International Conference on Technology for Education",
+        "3":"International Conference on Computers in Education (ICCE 2020, 2019)",
+        "4":"7th International Conference on Sciences of Electronics, Technologies of Information and Telecommunications.",
+        "5":"6th IEEE International Conference on Information and Communication Technology and Accessibility (2017).",
+        "6":"3rd International Conference on Smart Learning Environments (2016).",
+        "7":"15th International Conference on Intelligent Tutoring Systems",
+        "8":"ACM SAC 2019 Web-based Technologies for Interactive Computing Education Track.",
+        "9":"EE TALE 2018, the IEEE Education Society’s flagship Asia-Pacific (IEEE Region 10) conference.",
+        "10":"2nd International Conference on Modern Management, Education Technology, and Social Science.",
+        "11":"International Conference on Education and Social Development."
+      }
     }
   },
 
@@ -119,15 +155,28 @@
     "title": "Events",
     "workshop": {
       "title": "Workshop",
-      "content": ""
+      "w1": {
+        "title":"International Workshop, Tunisia 2019",
+        "introduction":"Hosted the international OER workshop at International conference on ICT & Accessibility (ICTA19conference, in 2019 Tunisia with participants from over 20 countries."
+      }
     },
     "seminar": {
       "title": "Seminar",
-      "content": ""
+      "s1": {
+        "title":"Open Education Practice and Teacher Capacity Building Forum",
+        "introduction":"The forum is jointly hosted by UNESCO IITE, ALECSO, Beijing Normal University and Beijing Institute of Education. Experts from China, Canada, Romania, Tunisia, India and Palestine shared practices and theoretical development of utilizing OER and OEP across the world. Over 20000 people watched the livestream of the forum online globally."
+      },
+      "s2": {
+        "title":"Asia-Arab Region Collaboration on Inclusion in Education Forum",
+        "introduction":"SILBNU-ALECSO Joint Lab has hosted Asia-Arab Region Collaboration on Inclusion in Education Forum during ITU-UNESCO Regional Digital Integration Week in November 2021."
+      }
     },
     "media-cover": {
       "title": "Media Cover",
-      "content": ""
+      "m1": {
+        "title":"The Global Finals of 2021 Global Competition on Design for Future Education Successfully Held at Beijing Normal University",
+        "introduction":"Co-organize the Global Competition on Design for Future Education in order to cultivate talents worldwide and in the Arab region."
+      }
     }
   },
 
@@ -149,6 +198,17 @@
 
   "common": {
     "submit": "Submit",
-    "submitted": "Submitted"
+    "submitted": "Submitted",
+    "languages":{
+      "chinese":"Chinese",
+      "english":"English",
+      "arabic":"Arabic",
+      "turkish":"Turkish"
+    },
+    "contact":{
+      "title":"Contact",
+      "address":"12F, Block A, Jingshi Technology Building, No. 12 Xueyuan South Road, Haidian District, Beijing, China. Postcode: 100082",
+      "phrase":"Get connected with us:"
+    }
   }
 }

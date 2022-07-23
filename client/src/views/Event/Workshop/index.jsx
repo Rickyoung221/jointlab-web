@@ -3,6 +3,7 @@ import workshop1 from "@img/event/workshop/Picture1.png";
 import ItemList from "../../commons/components/ItemList";
 import { withTranslation } from "react-i18next";
 
+
 function Workshop({t}) {
   return (
     <>
@@ -11,9 +12,8 @@ function Workshop({t}) {
       <div className="main-content">
         <ItemList
           img={workshop1}
-          title="International Workshop, Tunisia 2019"
-          txt="Hosted the international OER workshop at International conference on ICT & Accessibility
-            (ICTA19 conference, in 2019 Tunisia with participants from over 20 countries."
+          title={t("events.workshop.w1.title")}
+          txt={t("events.workshop.w1.introduction")}
           url=""
         />
       </div>
