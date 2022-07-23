@@ -8,8 +8,6 @@ function AdvisoryBoard({t}) {
       <h1> {t("about.advisory-structure.title")} </h1>
       <Sidebar />
       <div className="main-content">
-        <br />
-        <br />
         <img src={StructureImg} className="img-fluid" alt="Team Structure" />
       </div>
       <br />

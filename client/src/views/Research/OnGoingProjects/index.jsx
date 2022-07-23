@@ -19,16 +19,9 @@ function OnGoingProjects({t}) {
               className="textbook float-left"
               alt="science"
             />
-            <h3> Science Textbook Comparison Project </h3>
+            <h3> {t("research.ongoing-projects.part1.name")} </h3>
             <p>
-              The project aims to compare science education textbooks in China
-              and the Arab region. The project mainly collected 13 ninth grade
-              science textbooks from 4 countries. The project has established a
-              validated framework for comparing textbooks with international
-              experts. From Textbook structure, Cognitive expectations,
-              Illustration efficiency, Gender representation, Technology use,
-              Learning goals analysis dimensions to comparative analysis of
-              science textbooks of China, Egypt, Oman and Tunisia.
+            {t("research.ongoing-projects.part1.introduction")}
             </p>
           </MDBContainer>
         </section>
@@ -38,14 +31,9 @@ function OnGoingProjects({t}) {
         <section id="finishedProjects">
           <MDBContainer fluid breakpoint="sm">
             <img src={arab_cover} className="Edtech float-right" alt="EDTECH" />
-            <h3> Arab Region Education Technology Industry Investigation </h3>
+            <h3> {t("research.ongoing-projects.part2.name")} </h3>
             <p>
-              The program aims to investigate educational technology industry in
-              the Arab region with a focus of EdTech Startups. By collecting and
-              analyzing the information of the scales, services and products,
-              technology of the Ed-tech startups, the project aims to
-              understanding the landscape of the EdTech industry in the Arab
-              region, especially the market and major players.
+            {t("research.ongoing-projects.part2.introduction")}
             </p>
           </MDBContainer>
         </section>
@@ -59,14 +47,9 @@ function OnGoingProjects({t}) {
               className="metaverse_cover float-left"
               alt="metaverse"
             />
-            <h3> Metaverse Education </h3>
+            <h3>  {t("research.ongoing-projects.part3.name")} </h3>
             <p>
-              The project aims to analyze the implementation and impact of the
-              metaverse in education to provide richer interactions for students
-              and teachers. In-depth sharing of insights into the metaverse and
-              future directions in education by inviting international experts
-              to hold a webinar. As an extension of this project, international
-              experts will be invited to papers and publish books as co-authors.
+            {t("research.ongoing-projects.part3.introduction")}
             </p>
           </MDBContainer>
         </section>

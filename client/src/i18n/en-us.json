@@ -21,11 +21,32 @@
     "title": "About",
     "vision&mission": {
       "title": "Vision & Mission",
-      "content": ""
+      "mission": {
+        "title": "Mission",
+        "part1":"We are devoted to promote the cutting edge research in the field of education technology, with a focus in Open Education Resources, Metaverse and Education and Artificial intelligence in education.",
+        "part2":"We are committed to improve the international collaboration between China and the Arab region through joint research projects, international conferences, webinars, and seminars to bridges the scholars in China and the Arab region and enhance the communication.",
+        "part3":"We are passionate about integrating education technology into educational practices with the goal to benefit students and educators in the Arab region and beyond.",
+        "part4":"We hope to promote smart education by organizing ICT related teacher training events and establishing education showroom in the Arab region."
+      }
     },
     "team-members": {
       "title": "Team Members",
-      "content": ""
+      "ahmed": {
+        "name":"Ahmed Tlili",
+        "job-title":"Lab Director"
+      },
+      "zhiminli":{
+        "name":"Zhimin Li",
+        "job-title":"Research Assistant"
+      },
+      "jialuzhao":{
+        "name":"Jialu Zhao",
+        "job-title":"Research Assistant"
+      },
+      "rickyoung":{
+        "name":"Rick Young",
+        "job-title":"Full Stack Engineer & Web Designer"
+      }
     },
     "advisory-structure": {
       "title": "Advisory Structure",
@@ -33,7 +54,18 @@
     },
     "our-partners": {
       "title": "Our Partners",
-      "content": ""
+      "net-dragon": {
+        "name":"Net Dragon",
+        "introduction":"NetDragon Websoft Holdings Limited, established in 1999, is a prominent innovator in China’s online gaming and education industries. As the first Chinese game maker that successfully expanded outside of its home market, NetDragon has localized its products in over 10 different languages, including English, French, Spanish and Arabic, and has reached over 65 million users covering 180 markets."
+      },
+      "elernity": {
+        "name":"Elernity",
+        "introduction":"Founded in 2010, Elernity is a subsidiary of NetDragon Websoft Holdings Limited. Elernity’s mission is to leverage the power of the Internet to improve education, by combining superior educational resources with advanced information technologies. The company employs over 1,500 personnel, including over 1,000 research personnel."
+      },
+      "classin": {
+        "name":"Classin",
+        "introduction":"ClassIn is a groundbreaking online teaching platform that enables teachers and students from across the globe to come together, face-to-face, and learn in a collaborative online environment. ClassIn is built for teachers and schools and provides a one-stop solution for digital learning. It also functions as a learning management system, including the ability to create classes, track attendance and submit homework."
+      }
     }
   },
 
@@ -41,11 +73,29 @@
     "title": "Research",
     "ongoing-projects": {
       "title": "Ongoing Projects",
-      "content": ""
+      "part1":{
+        "name":"Science Textbook Comparison Project",
+        "introduction":"The project aims to compare science education textbooks in China and the Arab region. The project mainly collected 13 ninth grade science textbooks from 4 countries. The project has established a validated framework for comparing textbooks with international experts. From Textbook structure, Cognitive expectations, Illustration efficiency, Gender representation, Technology use, Learning goals analysis dimensions to comparative analysis of science textbooks of China, Egypt, Oman and Tunisia."
+      },
+      "part2":{
+        "name":"Arab Region Education Technology Industry Investigation",
+        "introduction":"The program aims to investigate educational technology industry in the Arab region with a focus of EdTech Startups. By collecting and analyzing the information of the scales, services and products, technology of the Ed-tech startups, the project aims to understanding the landscape of the EdTech industry in the Arab region, especially the market and major players."
+      },
+      "part3":{
+        "name":"Metaverse Education",
+        "introduction":"The project aims to analyze the implementation and impact of the metaverse in education to provide richer interactions for students and teachers. In-depth sharing of insights into the metaverse and future directions in education by inviting international experts to hold a webinar. As an extension of this project, international experts will be invited to papers and publish books as co-authors."
+      }
     },
     "finished-projects": {
       "title": "Finished Projects",
-      "content": ""
+      "part1":{
+        "name":"Open Interactive Database",
+        "introduction":"In line with the Open Science wave, an Open Interactive Database which contains detailed statistics related to the Arab region——22 countries was developed. Specifically, the indicators covered by the OID, such as in the field of economy, culture and education, can help to evaluate the Arab countries' achievement towards 17 SDGs. The purpose of the OID is to provide open-access to data about the Arab region, which researchers, practitioners and decision makers can use to understand, explore and enhance a given field. In addition, this data can promote cross-collaboration between countries to promote the growth of all countries in the Arab region."
+      },
+      "part2":{
+        "name":"Education Development in the Arab Region",
+        "introduction":"A book titled An Overview of Education Development in the Arab Region: Insights and Recommendations Towards Sustainable Development Goals (SDG) is released by SLIBNU-ALECSO ‘Smart Education’ Joint Lab. The book is an outcome of the Open Interactive Database Project, in collaboration between the Smart Learning Institute of Beijing Normal University and the Arab League Educational, Cultural and Scientific Organization. This book aims to provide a comprehensive understanding of the education development in the Arab region. The book reveals that major efforts have been made by many Arab countries, especially those in Sub-Saharan Africa, over the past decade to improve education access."
+      }
     }
   },
 

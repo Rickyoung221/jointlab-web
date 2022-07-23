@@ -5,8 +5,9 @@ import AhmedImg from '@img/vision/avatar/ahmed.jpg';
 import Zhiminimg from '@img/vision/avatar/zhimin.jpg';
 import JialuImg from '@img/vision/avatar/jialu.jpg';
 import RickImg from '@img/vision/avatar/rick.jpeg';
+import { withTranslation } from 'react-i18next';
 
-function avatarPage() {
+function avatarPage({t}) {
   return (
     <>
       <h1> Meet Our Team </h1>
@@ -23,9 +24,9 @@ function avatarPage() {
                 alt="Avatar-Ahmed"
               />
               <h5 className="mb-2">
-                <strong>Ahmed Tlili</strong>
+                <strong>{t("about.team-members.ahmed.name")}</strong>
               </h5>
-              <p className="text-muted">Lab Director</p>
+              <p className="text-muted">{t("about.team-members.ahmed.job-title")}</p>
             </MDBCol>
 
             <MDBCol md="4">
@@ -35,9 +36,9 @@ function avatarPage() {
                 alt="Avatar-Zhimin"
               />
               <h5 className="mb-2">
-                <strong>Zhimin Li</strong>
+                <strong>{t("about.team-members.zhiminli.name")}</strong>
               </h5>
-              <p className="text-muted">Research Assistant</p>
+              <p className="text-muted">{t("about.team-members.zhiminli.job-title")}</p>
             </MDBCol>
             <MDBCol md="4">
               <img
@@ -46,9 +47,9 @@ function avatarPage() {
                 alt="Avatar-Lulu"
               />
               <h5 className="mb-2">
-                <strong>Jialu Zhao</strong>
+                <strong> {t("about.team-members.jialuzhao.name")} </strong>
               </h5>
-              <p className="text-muted">Research Assistant</p>
+              <p className="text-muted">{t("about.team-members.jialuzhao.job-title")}</p>
             </MDBCol>
           </MDBRow>
           <br />
@@ -62,9 +63,9 @@ function avatarPage() {
                 alt="Avatar-Rick"
               />
               <h5 className="mb-2">
-                <strong>Rick Young</strong>
+                <strong>{t("about.team-members.rickyoung.name")}</strong>
               </h5>
-              <p className="text-muted">Full Stack Engineer & Web Designer</p>
+              <p className="text-muted">{t("about.team-members.rickyoung.job-title")}</p>
             </MDBCol>
           </MDBRow>
           <br />
@@ -75,4 +76,4 @@ function avatarPage() {
   );
 }
 
-export default avatarPage;
+export default withTranslation()(avatarPage);

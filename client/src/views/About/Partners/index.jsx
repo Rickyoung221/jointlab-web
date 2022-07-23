@@ -42,18 +42,12 @@ function partnersPage({t}) {
                     className="stretched-link"
                   >
                     <MDBCardTitle className="card-title text-primary">
-                      Net Dragon
+                    {t("about.our-partners.net-dragon.name")}
                       <MDBIcon fas icon="link" size="xs" color="primary" />
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                    NetDragon Websoft Holdings Limited, established in 1999, is
-                    a prominent innovator in China’s online gaming and education
-                    industries. As the first Chinese game maker that
-                    successfully expanded outside of its home market, NetDragon
-                    has localized its products in over 10 different languages,
-                    including English, French, Spanish and Arabic, and has
-                    reached over 65 million users covering 180 markets.
+                  {t("about.our-partners.net-dragon.introduction")}
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>
@@ -81,17 +75,12 @@ function partnersPage({t}) {
                     className="stretched-link"
                   >
                     <MDBCardTitle className="card-title text-primary">
-                      Elernity
+                    {t("about.our-partners.elernity.name")}
                       <MDBIcon fas icon="link" size="xs" color="primary" />
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                    Founded in 2010, Elernity is a subsidiary of NetDragon
-                    Websoft Holdings Limited. Elernity’s mission is to leverage
-                    the power of the Internet to improve education, by combining
-                    superior educational resources with advanced information
-                    technologies. The company employs over 1,500 personnel,
-                    including over 1,000 research personnel.
+                  {t("about.our-partners.elernity.introduction")}
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>
@@ -119,19 +108,12 @@ function partnersPage({t}) {
                     className="stretched-link"
                   >
                     <MDBCardTitle className="card-title text-primary">
-                      Classin
+                    {t("about.our-partners.classin.name")}
                       <MDBIcon fas icon="link" size="xs" color="primary" />
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                    ClassIn is a groundbreaking online teaching platform that
-                    enables teachers and students from across the globe to come
-                    together, face-to-face, and learn in a collaborative online
-                    environment. ClassIn is built for teachers and schools and
-                    provides a one-stop solution for digital learning. It also
-                    functions as a learning management system, including the
-                    ability to create classes, track attendance and submit
-                    homework.
+                  {t("about.our-partners.classin.introduction")}
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>

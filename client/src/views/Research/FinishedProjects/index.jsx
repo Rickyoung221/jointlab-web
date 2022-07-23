@@ -19,19 +19,9 @@ function FinishedProjects({t}) {
               className="data_screenshot float-left"
               alt="database"
             />
-            <a href='http://observatory.alecso.org/Data/en/' rel="noreferrer" target="_blank" > <h3> Open Interactive Database </h3> </a>
+            <a href='http://observatory.alecso.org/Data/en/' rel="noreferrer" target="_blank" > <h3> {t("research.finished-projects.part1.name")}</h3> </a>
             <p>
-              In line with the Open Science wave, an Open Interactive Database
-              which contains detailed statistics related to the Arab region——22
-              countries was developed. Specifically, the indicators covered by
-              the OID, such as in the field of economy, culture and education,
-              can help to evaluate the Arab countries' achievement towards17
-              SDGs. The purpose of the OID is to provide open-access to data
-              about the Arab region, which researchers, practitioners and
-              decision makers can use to understand, explore and enhance a given
-              field. In addition, this data can promote cross-collaboration
-              between countries to promote the growth of all countries in the
-              Arab region.
+            {t("research.finished-projects.part1.introduction")}
             </p>
           </MDBContainer>
         </section>
@@ -45,20 +35,10 @@ function FinishedProjects({t}) {
             alt="Education_Dev"
           />
           <Link to="education-development">
-            <h3> Education Development in the Arab Region </h3>
+            <h3>             {t("research.finished-projects.part2.name")} </h3>
           </Link>
           <p>
-            A book titled An Overview of Education Development in the Arab
-            Region: Insights and Recommendations Towards Sustainable Development
-            Goals (SDG) is released by SLIBNU-ALECSO ‘Smart Education’ Joint
-            Lab. The book is an outcome of the Open Interactive Database
-            Project, in collaboration between the Smart Learning Institute of
-            Beijing Normal University and the Arab League Educational, Cultural
-            and Scientific Organization. This book aims to provide a
-            comprehensive understanding of the education development in the Arab
-            region. The book reveals that major efforts have been made by many
-            Arab countries, especially those in Sub-Saharan Africa, over the
-            past decade to improve education access.
+          {t("research.finished-projects.part2.introduction")}
           </p>
         </MDBContainer>
       </div>
