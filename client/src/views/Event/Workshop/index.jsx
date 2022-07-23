@@ -14,7 +14,7 @@ function Workshop({t}) {
           title="International Workshop, Tunisia 2019"
           txt="Hosted the international OER workshop at International conference on ICT & Accessibility
             (ICTA19 conference, in 2019 Tunisia with participants from over 20 countries."
-          url="1"
+          url=""
         />
       </div>
     </>
