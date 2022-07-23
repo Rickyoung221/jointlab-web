@@ -4,11 +4,12 @@ import Sidebar from "../components/Sidebar";
 import { MDBContainer } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
 import "./FinishedProjects.css";
+import { withTranslation } from 'react-i18next';
 
-function FinishedProjects() {
+function FinishedProjects({t}) {
   return (
     <>
-      <h1> Finished Projects </h1>
+      <h1> {t("research.finished-projects.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <section>
@@ -64,4 +65,4 @@ function FinishedProjects() {
     </>
   );
 }
-export default FinishedProjects;
+export default withTranslation()(FinishedProjects);

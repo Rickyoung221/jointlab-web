@@ -5,7 +5,6 @@ import Footer from "./commons/Footer";
 
 //Layout
 function App() {
-
   return (
     <>
       <Navbar />

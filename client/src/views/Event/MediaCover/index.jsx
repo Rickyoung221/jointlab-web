@@ -1,11 +1,12 @@
 import Sidebar from "../components/Sidebar";
 import ItemList from "../../commons/components/ItemList";
 import completition from "@img/event/mediaCover/Picture3.png";
+import { withTranslation } from "react-i18next";
 
-function MediaCover() {
+function MediaCover({t}) {
   return (
     <>
-      <h1> Media Cover </h1>
+      <h1>{t("events.media-cover.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <ItemList
@@ -18,4 +19,4 @@ function MediaCover() {
     </>
   );
 }
-export default MediaCover;
+export default withTranslation()(MediaCover);

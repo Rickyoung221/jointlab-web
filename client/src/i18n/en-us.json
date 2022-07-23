@@ -8,46 +8,79 @@
       },
       "vision": {
         "title": "Vision",
-        "sub-title":"Thriving for a more innovative and inclusive education",
-        "content":{
-          "part1":"The SLIBNU-ALECSO Smart Education Joint Lab provides academic resources and an international exchange platform for students and educators, aiming to promote the development of education in China and the Arab region, so as to achieve inclusion of education, technological innovation and social participation. Reshaping the education landscape through technology: educational reforms are taking place all the time. We expect that in the future education, the school's overall educational ecology will be activated and reconstructed through the empowerment of mutual technologies. The Joint Lab therefore thrive to creating an innovative computer-aided education environment and facilitate educators and students to embrace digital teaching and learning. The joint lab work closely with the leading ed-teach enterprises in China and the Arab region, providing academic support to the industry while getting inspired from innovation in practices.",
-          "part2":"Empowering all children through educational technology: We expect that in future education, students will achieve equal opportunities in education through educational technology. By promoting distance learning, flexible learning, and open educational resources, the Joint Lab contribute to inclusion of education and enable every child to access quality education, especially those are in the disadvantaged position. Our lab aims to promote a more inclusive and technological-supported education in China, the Arab region, and even the world."
+        "sub-title": "Thriving for a more innovative and inclusive education",
+        "content": {
+          "part1": "The SLIBNU-ALECSO Smart Education Joint Lab provides academic resources and an international exchange platform for students and educators, aiming to promote the development of education in China and the Arab region, so as to achieve inclusion of education, technological innovation and social participation. Reshaping the education landscape through technology: educational reforms are taking place all the time. We expect that in the future education, the school's overall educational ecology will be activated and reconstructed through the empowerment of mutual technologies. The Joint Lab therefore thrive to creating an innovative computer-aided education environment and facilitate educators and students to embrace digital teaching and learning. The joint lab work closely with the leading ed-teach enterprises in China and the Arab region, providing academic support to the industry while getting inspired from innovation in practices.",
+          "part2": "Empowering all children through educational technology: We expect that in future education, students will achieve equal opportunities in education through educational technology. By promoting distance learning, flexible learning, and open educational resources, the Joint Lab contribute to inclusion of education and enable every child to access quality education, especially those are in the disadvantaged position. Our lab aims to promote a more inclusive and technological-supported education in China, the Arab region, and even the world."
         }
       }
     }
   },
+
   "about": {
     "title": "About",
-    "menu": {
-      "vision&mission": "Vision & Mission",
-      "team-members": "Team Members",
-      "advisory-structure": "Advisory Structure",
-      "our-partners": "Our Partners"
+    "vision&mission": {
+      "title": "Vision & Mission",
+      "content": ""
+    },
+    "team-members": {
+      "title": "Team Members",
+      "content": ""
+    },
+    "advisory-structure": {
+      "title": "Advisory Structure",
+      "content": ""
+    },
+    "our-partners": {
+      "title": "Our Partners",
+      "content": ""
     }
   },
+
   "research": {
     "title": "Research",
-    "menu": {
-      "ongoing-projects": "Ongoing Projects",
-      "finished-projects": "Finished Projects"
+    "ongoing-projects": {
+      "title": "Ongoing Projects",
+      "content": ""
+    },
+    "finished-projects": {
+      "title": "Finished Projects",
+      "content": ""
     }
   },
+
   "publications": {
     "title": "Publications",
-    "menu": {
-      "reports": "Reports",
-      "journal-articles": "Journal Articles",
-      "conferences": "Conferences"
+    "reports": {
+      "title": "Reports",
+      "content": ""
+    },
+    "journal-articles": {
+      "title": "Journal Articles",
+      "content": ""
+    },
+    "conferences": {
+      "title": "Conferences",
+      "content": ""
     }
   },
+
   "events": {
     "title": "Events",
-    "menu": {
-      "workshop": "Workshop",
-      "seminar": "Seminar",
-      "media-cover": "Media Cover"
+    "workshop": {
+      "title": "Workshop",
+      "content": ""
+    },
+    "seminar": {
+      "title": "Seminar",
+      "content": ""
+    },
+    "media-cover": {
+      "title": "Media Cover",
+      "content": ""
     }
   },
+
   "joinus": {
     "title": "Join Us",
     "introduction": "As a diverse and dynamic laboratory, SLIBNU-ALECSO Smart Education Joint Lab is looking for researchers and practitioners in the field of education and technology to collaborate with us. We also welcome students with relevant backgrounds or interests to join our team. If you are interested in becoming a partner, collaborator, or team member please leave us your information and message below. Let’s work together for a more innovative and inclusive education!",
@@ -63,6 +96,7 @@
       "message": "Message"
     }
   },
+
   "common": {
     "submit": "Submit",
     "submitted": "Submitted"

@@ -10,13 +10,13 @@ function Sidebar({t}){
       <NavLink to='/events' className="sidebar-item sidebar-button sidebar-border-bottom titleUnclick" onClick={notJump}> {t("events.title")} </NavLink>
         <ul className='titleCustom'>
             <li>
-              <NavLink to='/events/workshop' className="sidebar-item sidebar-button" > {t("events.menu.workshop")}</NavLink>
+              <NavLink to='/events/workshop' className="sidebar-item sidebar-button" > {t("events.workshop.title")}</NavLink>
             </li>
             <li>
-              <NavLink to='/events/Seminar' className="sidebar-item sidebar-button"> {t("events.menu.seminar")}</NavLink>
+              <NavLink to='/events/Seminar' className="sidebar-item sidebar-button"> {t("events.seminar.title")}</NavLink>
             </li>
             <li>
-              <NavLink to='/events/media-cover' className="sidebar-item sidebar-button"> {t("events.menu.media-cover")} </NavLink>
+              <NavLink to='/events/media-cover' className="sidebar-item sidebar-button"> {t("events.media-cover.title")} </NavLink>
             </li>
         </ul>
     </div>

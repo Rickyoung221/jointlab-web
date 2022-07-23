@@ -2,28 +2,17 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 import Sidebar from '../components/Sidebar';
 import lab1 from '@img/home/lab1.jpeg';
 import './AboutUs.css';
+import { withTranslation } from 'react-i18next';
 
-export default function AboutUs() {
+function AboutUs({t}) {
   return (
     <>
-      <h1> About Us </h1>
+      <h1> {t("home.content.about-us.title")}  </h1>
       <Sidebar />
       <div className="main-content">
         <MDBContainer breakpoint="sm">
           <p>
-            The SLIBNU-ALECSO Smart Education Joint Lab is jointly established
-            by the Smart Learning Institute of Beijing Normal University
-            (SLIBNU) and the Arab League Education, Culture and Science
-            Organization (ALECSO). The joint laboratory is dedicated to carrying
-            out projects in the fields of education and ICT, and promoting
-            collaborative research between China and the Arab region. The
-            research projects carried out by the joint laboratory include the
-            Arab Region Open Interactive Database (OID) Project, the Arab Region
-            Education Development Research Project, and the Arab and Chinese
-            Science Textbook Comparison Project. In addition, the joint
-            laboratory has held several international forums and webinars,
-            including the ITU-UNESCO Forum on Inclusive Education, to promote
-            exchanges among scholars.
+          {t("home.content.about-us.content")}
           </p>
           <img src={lab1} className="img-fluid" alt="lab" />
         </MDBContainer>
@@ -31,3 +20,5 @@ export default function AboutUs() {
     </>
   );
 }
+
+export default withTranslation()(AboutUs);

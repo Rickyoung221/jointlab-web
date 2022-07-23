@@ -1,10 +1,11 @@
 import StructureImg from '@img/vision/team_structure.jpg';
 import Sidebar from '../components/Sidebar';
+import { withTranslation } from 'react-i18next';
 
-export default function AdvisoryBoard() {
+function AdvisoryBoard({t}) {
   return (
     <>
-      <h1> Advisory Board</h1>
+      <h1> {t("about.advisory-structure.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <br />
@@ -15,3 +16,5 @@ export default function AdvisoryBoard() {
     </>
   );
 }
+
+export default withTranslation()(AdvisoryBoard)

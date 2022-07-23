@@ -2,12 +2,12 @@ import Sidebar from "../components/Sidebar";
 import ItemList from "../../commons/components/ItemList";
 import gse from "@img/home/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png";
 import index from "@img/event/seminar/index.png";
+import { withTranslation } from 'react-i18next';
 
-
-function Seminar() {
+function Seminar({t}) {
   return (
     <>
-      <h1> Seminar </h1>
+      <h1> {t("events.seminar.title")} </h1>
 
       <Sidebar />
       <div className="main-content">
@@ -34,4 +34,4 @@ function Seminar() {
     </>
   );
 }
-export default Seminar;
+export default withTranslation()(Seminar);

@@ -10,13 +10,13 @@ function Sidebar({t}){
       <NavLink to='/publication' className="sidebar-item sidebar-button sidebar-border-bottom titleUnclick" onClick={notJump}> {t("publications.title")} </NavLink>
         <ul className='titleCustom'>
             <li>
-              <NavLink to='/publication/reports' className="sidebar-bar-item sidebar-button" > {t("publications.menu.reports")} </NavLink>
+              <NavLink to='/publication/reports' className="sidebar-bar-item sidebar-button" > {t("publications.reports.title")} </NavLink>
             </li>
             <li>
-              <NavLink to='/publication/journal-articles' className="sidebar-item sidebar-button"> {t("publications.menu.journal-articles")} </NavLink>
+              <NavLink to='/publication/journal-articles' className="sidebar-item sidebar-button"> {t("publications.journal-articles.title")} </NavLink>
             </li>
             <li>
-              <NavLink to='/publication/conferences' className="sidebar-item sidebar-button"> {t("publications.menu.conferences")} </NavLink>
+              <NavLink to='/publication/conferences' className="sidebar-item sidebar-button"> {t("publications.conferences.title")} </NavLink>
             </li>
         </ul>
     </div>

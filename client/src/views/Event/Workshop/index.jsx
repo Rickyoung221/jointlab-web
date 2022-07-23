@@ -1,11 +1,12 @@
 import Sidebar from "../components/Sidebar";
 import workshop1 from "@img/event/workshop/Picture1.png";
 import ItemList from "../../commons/components/ItemList";
+import { withTranslation } from "react-i18next";
 
-function Workshop() {
+function Workshop({t}) {
   return (
     <>
-      <h1> Workshop </h1>
+      <h1> {t("events.workshop.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <ItemList
@@ -19,4 +20,4 @@ function Workshop() {
     </>
   );
 }
-export default Workshop;
+export default withTranslation()(Workshop);

@@ -7,11 +7,12 @@ import ai_combat_pandemics from '@img/Publication/ai_combat_pandemics.png';
 import active_learning_at_home from '@img/Publication/active_learning_at_home.png';
 import education_development from '@img/Publication/education_development.png';
 import { MDBContainer } from 'mdb-react-ui-kit';
+import { withTranslation } from 'react-i18next';
 
-function Report(){
+function Report({t}){
   return(
     <>
-    <h1>Reports</h1>
+    <h1> {t("publications.reports.title")} </h1>
     <Sidebar />
     <div className="main-content">
       <section id='onGoingProjects' >
@@ -126,4 +127,4 @@ function Report(){
   )
 }
 
-export default Report;
+export default withTranslation()(Report);

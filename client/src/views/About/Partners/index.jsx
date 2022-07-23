@@ -1,4 +1,4 @@
-import Sidebar from '../components/Sidebar';
+import Sidebar from "../components/Sidebar";
 import {
   MDBIcon,
   MDBCard,
@@ -8,17 +8,18 @@ import {
   MDBCardImage,
   MDBRow,
   MDBCol,
-  MDBContainer
-} from 'mdb-react-ui-kit';
-import './Partners.css';
-import NetDragonLogo from '@img/vision/partners/NetDragon-logo.jpg';
-import ElernityLogo from '@img/vision/partners/Elernity-logo.jpg';
-import ClassinLogo from '@img/vision/partners/Classin-logo.jpg';
+  MDBContainer,
+} from "mdb-react-ui-kit";
+import "./Partners.css";
+import NetDragonLogo from "@img/vision/partners/NetDragon-logo.jpg";
+import ElernityLogo from "@img/vision/partners/Elernity-logo.jpg";
+import ClassinLogo from "@img/vision/partners/Classin-logo.jpg";
+import { withTranslation } from "react-i18next";
 
-function partnersPage() {
+function partnersPage({t}) {
   return (
     <>
-      <h1> Our Partners </h1>
+      <h1> {t("about.our-partners.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <MDBContainer fluid breakpoint="md" className="card-position">
@@ -46,7 +47,13 @@ function partnersPage() {
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                  NetDragon Websoft Holdings Limited, established in 1999, is a prominent innovator in China’s online gaming and education industries. As the first Chinese game maker that successfully expanded outside of its home market, NetDragon has localized its products in over 10 different languages, including English, French, Spanish and Arabic, and has reached over 65 million users covering 180 markets.
+                    NetDragon Websoft Holdings Limited, established in 1999, is
+                    a prominent innovator in China’s online gaming and education
+                    industries. As the first Chinese game maker that
+                    successfully expanded outside of its home market, NetDragon
+                    has localized its products in over 10 different languages,
+                    including English, French, Spanish and Arabic, and has
+                    reached over 65 million users covering 180 markets.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>
@@ -117,17 +124,23 @@ function partnersPage() {
                     </MDBCardTitle>
                   </a>
                   <MDBCardText className="intro-color">
-                  ClassIn is a groundbreaking online teaching platform that enables teachers and students from across the globe to come together, face-to-face, and learn in a collaborative online environment. ClassIn is built for teachers and schools and provides a one-stop solution for digital learning. It also functions as a learning management system, including the ability to create classes, track attendance and submit homework.
+                    ClassIn is a groundbreaking online teaching platform that
+                    enables teachers and students from across the globe to come
+                    together, face-to-face, and learn in a collaborative online
+                    environment. ClassIn is built for teachers and schools and
+                    provides a one-stop solution for digital learning. It also
+                    functions as a learning management system, including the
+                    ability to create classes, track attendance and submit
+                    homework.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCol>
             </MDBRow>
           </MDBCard>
         </MDBContainer>
-
       </div>
     </>
   );
 }
 
-export default partnersPage;
+export default withTranslation()(partnersPage);

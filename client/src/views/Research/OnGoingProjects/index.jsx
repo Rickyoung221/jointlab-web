@@ -4,11 +4,12 @@ import metaverse_cover from '@img/research/3-Metaverse-education.png';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Sidebar from '../components/Sidebar';
 import './OnGoingProjects.css';
+import { withTranslation } from 'react-i18next';
 
-function OnGoingProjects() {
+function OnGoingProjects({t}) {
   return (
     <>
-      <h1> Ongoing Projects </h1>
+      <h1> {t("research.ongoing-projects.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <section id="onGoingProjects">
@@ -18,7 +19,7 @@ function OnGoingProjects() {
               className="textbook float-left"
               alt="science"
             />
-            <h3> Science Textbook Comparison Project</h3>
+            <h3> Science Textbook Comparison Project </h3>
             <p>
               The project aims to compare science education textbooks in China
               and the Arab region. The project mainly collected 13 ninth grade
@@ -75,4 +76,4 @@ function OnGoingProjects() {
   );
 }
 
-export default OnGoingProjects;
+export default withTranslation()(OnGoingProjects);

@@ -71,16 +71,16 @@ function NavbarPage({t}) {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <NavLink to="/aboutUs/mission" className="dropdown-item">
-                    {t("about.menu.vision&mission")}
+                    {t("about.vision&mission.title")}
                     </NavLink>
                     <NavLink to="/aboutUs/avatar" className="dropdown-item">
-                    {t("about.menu.team-members")}
+                    {t("about.team-members.title")}
                     </NavLink>
                     <NavLink to="/aboutUs/advisory-board" className="dropdown-item">
-                    {t("about.menu.advisory-structure")}
+                    {t("about.advisory-structure.title")}
                     </NavLink>
                     <NavLink to="/aboutUs/partners" className="dropdown-item">
-                    {t("about.menu.our-partners")}
+                    {t("about.our-partners.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -107,13 +107,13 @@ function NavbarPage({t}) {
                       to="/research/ongoing-projects"
                       className="dropdown-item"
                     >
-                    {t("research.menu.ongoing-projects")}
+                    {t("research.ongoing-projects.title")}
                     </NavLink>
                     <NavLink
                       to="/research/finished-projects"
                       className="dropdown-item"
                     >
-                    {t("research.menu.finished-projects")}
+                    {t("research.finished-projects.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -140,19 +140,19 @@ function NavbarPage({t}) {
                       to="/publication/reports"
                       className="dropdown-item"
                     >
-                    {t("publications.menu.reports")}
+                    {t("publications.reports.title")}
                     </NavLink>
                     <NavLink
                       to="/publication/journal-articles"
                       className="dropdown-item"
                     >
-                    {t("publications.menu.journal-articles")}
+                    {t("publications.journal-articles.title")}
                     </NavLink>
                     <NavLink
                       to="/publication/conferences"
                       className="dropdown-item"
                     >
-                    {t("publications.menu.conferences")}
+                    {t("publications.conferences.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -176,13 +176,13 @@ function NavbarPage({t}) {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <NavLink to="/events/workshop" className="dropdown-item">
-                    {t("events.menu.workshop")}
+                    {t("events.workshop.title")}
                     </NavLink>
                     <NavLink to="/events/seminar" className="dropdown-item">
-                    {t("events.menu.seminar")}
+                    {t("events.seminar.title")}
                     </NavLink>
                     <NavLink to="/events/media-cover" className="dropdown-item">
-                    {t("events.menu.media-cover")}
+                    {t("events.media-cover.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
