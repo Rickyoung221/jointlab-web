@@ -1,6 +1,6 @@
 {
-  "home":{
-    "title":"الرئيسية",
+  "home": {
+    "title": "الرئيسية",
     "content": {
       "about-us": {
         "title": "معلومات عنا",
@@ -8,90 +8,203 @@
       },
       "vision": {
         "title": "رؤية",
-        "sub-title":"مزدهرة من أجل تعليم أكثر ابتكارا وشمولية",
-        "content":{
-          "part1":"يوفر مختبر 'SLIBNU-ALECSO' (سليبنو-ألكيسو) المشترك للتعليم الذكي موارد أكاديمية ومنصة تبادل دولية للطلاب والمعلمين، بهدف تعزيز تطوير التعليم في الصين والمنطقة العربية، وذلك لتحقيق دمج التعليم والابتكار التكنولوجي والمشاركة الاجتماعية. إعادة التشكيل مشهد التعليم من خلال التكنولوجيا: الإصلاحات التعليمية تحدث طوال الوقت. نتوقع أنه في التعليم المستقبلي، سيتم تنشيط البيئة التعليمية الكلية للمدرسة وإعادة بنائها من خلال تمكين التقنيات المتبادلة. لذلك، يزدهر المختبر المشترك لخلق بيئة تعليمية مبتكرة بمساعدة الحاسوب وتسهيل المعلمين والطلاب لاحتضان التدريس والتعلم الرقمي. يعمل المختبر المشترك عن كثب مع المؤسسات التعليمية الرائدة في الصين والمنطقة العربية، مما يوفر الدعم الأكاديمي للصناعة مع الحصول على الإلهام من الابتكار في الممارسات.",
-          "part2":"تمكين جميع الأطفال من خلال تكنولوجيا التعليم: نتوقع أنه في التعليم المستقبلي، سيحقق الطلاب تكافؤ الفرص في التعليم من خلال تكنولوجيا التعليم. من خلال تعزيز التعلم عن بعد والتعلم المرن والموارد التعليمية المفتوحة، يساهم المختبر المشترك في دمج التعليم وتمكين كل طفل من الوصول إلى تعليم جيد، وخاصة أولئك الذين هم في وضع غير مناسب. يهدف مختبرنا إلى تعزيز تعليم أكثر شمولاً ودعمًا تقنيًا في الصين والمنطقة العربية وحتى العالم."
+        "sub-title": "مزدهرة من أجل تعليم أكثر ابتكارا وشمولية",
+        "content": {
+          "part1": "يوفر مختبر 'SLIBNU-ALECSO' (سليبنو-ألكيسو) المشترك للتعليم الذكي موارد أكاديمية ومنصة تبادل دولية للطلاب والمعلمين، بهدف تعزيز تطوير التعليم في الصين والمنطقة العربية، وذلك لتحقيق دمج التعليم والابتكار التكنولوجي والمشاركة الاجتماعية. إعادة التشكيل مشهد التعليم من خلال التكنولوجيا: الإصلاحات التعليمية تحدث طوال الوقت. نتوقع أنه في التعليم المستقبلي، سيتم تنشيط البيئة التعليمية الكلية للمدرسة وإعادة بنائها من خلال تمكين التقنيات المتبادلة. لذلك، يزدهر المختبر المشترك لخلق بيئة تعليمية مبتكرة بمساعدة الحاسوب وتسهيل المعلمين والطلاب لاحتضان التدريس والتعلم الرقمي. يعمل المختبر المشترك عن كثب مع المؤسسات التعليمية الرائدة في الصين والمنطقة العربية، مما يوفر الدعم الأكاديمي للصناعة مع الحصول على الإلهام من الابتكار في الممارسات.",
+          "part2": "تمكين جميع الأطفال من خلال تكنولوجيا التعليم: نتوقع أنه في التعليم المستقبلي، سيحقق الطلاب تكافؤ الفرص في التعليم من خلال تكنولوجيا التعليم. من خلال تعزيز التعلم عن بعد والتعلم المرن والموارد التعليمية المفتوحة، يساهم المختبر المشترك في دمج التعليم وتمكين كل طفل من الوصول إلى تعليم جيد، وخاصة أولئك الذين هم في وضع غير مناسب. يهدف مختبرنا إلى تعزيز تعليم أكثر شمولاً ودعمًا تقنيًا في الصين والمنطقة العربية وحتى العالم."
         }
       }
     }
   },
-  "about":{
-    "title":"معلومات عنا",
-      "vision&mission":{
-        "title":"الرؤية والرسالة",
-        "mission":{
-
-        }
+  "about": {
+    "title": "معلومات عنا",
+    "vision&mission": {
+      "title": "الرؤية والرسالة",
+      "mission": {
+        "title": "Mission",
+        "part1": "نحن ملتزمون بتعزيز البحوث المتطورة في مجال تكنولوجيا التعليم، مع التركيز على مصادر التعليم المفتوح، و ميتافيرس  (metaverse) التعليم والذكاء الاصطناعي في التعليم.",
+        "part2": "We are committed to improve the international collaboration between China and the Arab region through joint research projects, international conferences, webinars, and seminars to bridges the scholars in China and the Arab region and enhance the communication.",
+        "part3": "We are passionate about integrating education technology into educational practices with the goal to benefit students and educators in the Arab region and beyond.",
+        "part4": "We hope to promote smart education by organizing ICT related teacher training events and establishing education showroom in the Arab region."
+      }
+    },
+    "team-members": {
+      "title": "أعضاء الفريق",
+      "ahmed": {
+        "name": "أحمد التليلي",
+        "job-title": "مدير المختبر"
       },
-      "team-members":"أعضاء الفريق",
-      "advisory-structure": "هيكل استشاري",
-      "our-partners":"شركاؤنا"
-    
-  },
-  "research":{
-    "title":"الأبحاث",
-
-      "ongoing-projects":"مشاريع جارية",
-      "finished-projects":"مشاريع منتهية"
-    
-  },
-  "publications":{
-    "title":"المنشورات",
-
-      "reports":{
-        "title":"تقارير",
-        "part1": {
-          "title":"",
-          "content":""
-        },
-        "part2": {
-          "title":"",
-          "content":""
-        },
-        "part3": {
-          "title":"",
-          "content":""
-        },
-        "part4": {
-          "title":"",
-          "content":""
-        },
-        "part5": {
-          "title":"",
-          "content":""
-        },
-        "part6": {
-          "title":"",
-          "content":""
-        }
+      "zhiminli": {
+        "name": "لي جي مين",
+        "job-title": "مساعد باحث"
       },
-
-      "journal-articles": "مقالات صحفية",
-      "conferences": "مؤتمرات"
-
+      "jialuzhao": {
+        "name": "جاو جيا لو",
+        "job-title": "مساعد باحث"
+      },
+      "rickyoung": {
+        "name": "ريك يانغ",
+        "job-title": "مهندس مكدس كامل ومصمم ويب"
+      }
+    },
+    "advisory-structure": {
+      "title": "هيكل استشاري",
+      "content": ""
+    },
+    "our-partners": {
+      "title": "شركاؤنا",
+      "net-dragon": {
+        "name": "نيت دراغون",
+        "introduction": ""
+      },
+      "elernity": {
+        "name": "اليرنيتي",
+        "introduction": " تأسست اليرنيتي في عام 2010، وهي شركة تابعة لشركة نيت دراغون الشبكة القابضة المحدودة. تتمثل مهمة اليرنيتي في الاستفادة من قوة الإنترنت لتحسين التعليم، من خلال الجمع بين الموارد التعليمية المتفوقة وتقنيات المعلومات المتقدمة. توظف الشركة أكثر من 1500 موظف، بما في ذلك أكثر من 1000 باحث."
+      },
+      "classin": {
+        "name": "كلاسين",
+        "introduction": "’كلاسين‘ عبارة عن منصة تعليمية رائدة عبر الإنترنت تمكن المعلمين والطلاب من جميع أنحاء العالم من الالتقاء وجهًا لوجه والتعلم في بيئة تعاونية عبر الإنترنت. تم تصميم كلاسين للمعلمين والمدارس ويوفر حلاً شاملاً للتعلم الرقمي. كما أنه يعمل كنظام لإدارة التعلم ، بما في ذلك القدرة على إنشاء الفصول الدراسية وتتبع الحضور وتقديم الواجبات المنزلية.."
+      }
+    }
   },
-  "events":{
+  "research": {
+    "title": "الأبحاث",
+    "ongoing-projects": {
+      "title": "مشاريع جارية",
+      "part1":{
+        "name":"Science Textbook Comparison Project",
+        "introduction":"The project aims to compare science education textbooks in China and the Arab region. The project mainly collected 13 ninth grade science textbooks from 4 countries. The project has established a validated framework for comparing textbooks with international experts. From Textbook structure, Cognitive expectations, Illustration efficiency, Gender representation, Technology use, Learning goals analysis dimensions to comparative analysis of science textbooks of China, Egypt, Oman and Tunisia."
+      },
+      "part2":{
+        "name":"Arab Region Education Technology Industry Investigation",
+        "introduction":"The program aims to investigate educational technology industry in the Arab region with a focus of EdTech Startups. By collecting and analyzing the information of the scales, services and products, technology of the Ed-tech startups, the project aims to understanding the landscape of the EdTech industry in the Arab region, especially the market and major players."
+      },
+      "part3":{
+        "name":"Metaverse Education",
+        "introduction":"The project aims to analyze the implementation and impact of the metaverse in education to provide richer interactions for students and teachers. In-depth sharing of insights into the metaverse and future directions in education by inviting international experts to hold a webinar. As an extension of this project, international experts will be invited to papers and publish books as co-authors."
+      }
+    },
+    "finished-projects": {
+      "title": "مشاريع منتهية",
+      "part1":{
+        "name":"Open Interactive Database",
+        "introduction":"In line with the Open Science wave, an Open Interactive Database which contains detailed statistics related to the Arab region——22 countries was developed. Specifically, the indicators covered by the OID, such as in the field of economy, culture and education, can help to evaluate the Arab countries' achievement towards 17 SDGs. The purpose of the OID is to provide open-access to data about the Arab region, which researchers, practitioners and decision makers can use to understand, explore and enhance a given field. In addition, this data can promote cross-collaboration between countries to promote the growth of all countries in the Arab region."
+      },
+      "part2":{
+        "name":"Education Development in the Arab Region",
+        "introduction":"A book titled An Overview of Education Development in the Arab Region: Insights and Recommendations Towards Sustainable Development Goals (SDG) is released by SLIBNU-ALECSO ‘Smart Education’ Joint Lab. The book is an outcome of the Open Interactive Database Project, in collaboration between the Smart Learning Institute of Beijing Normal University and the Arab League Educational, Cultural and Scientific Organization. This book aims to provide a comprehensive understanding of the education development in the Arab region. The book reveals that major efforts have been made by many Arab countries, especially those in Sub-Saharan Africa, over the past decade to improve education access."
+      }
+    }
+  },
+  "publications": {
+    "title": "المنشورات",
+
+    "reports": {
+      "title": "تقارير",
+      "part1": {
+        "title": "",
+        "content": ""
+      },
+      "part2": {
+        "title": "",
+        "content": ""
+      },
+      "part3": {
+        "title": "",
+        "content": ""
+      },
+      "part4": {
+        "title": "",
+        "content": ""
+      },
+      "part5": {
+        "title": "",
+        "content": ""
+      },
+      "part6": {
+        "title": "",
+        "content": ""
+      }
+    },
+
+    "journal-articles": {
+      "title":"مقالات صحفية",
+      "content":""
+      },
+    "conferences":{
+      "title":"مؤتمرات",
+      "content":  {
+        "introduction":"The director of SLIBNU-ALECSO Smart Education Joint lab has served as chair, committee member in the following conferences:",
+        "1":"17th, 18th, 19th 21st International Conference on Advanced Learning Technologies (ICALT)",
+        "2":"8th, 9th, 10th International Conference on Technology for Education",
+        "3":"International Conference on Computers in Education (ICCE 2020, 2019)",
+        "4":"7th International Conference on Sciences of Electronics, Technologies of Information and Telecommunications.",
+        "5":"6th IEEE International Conference on Information and Communication Technology and Accessibility (2017).",
+        "6":"3rd International Conference on Smart Learning Environments (2016).",
+        "7":"15th International Conference on Intelligent Tutoring Systems",
+        "8":"ACM SAC 2019 Web-based Technologies for Interactive Computing Education Track.",
+        "9":"EE TALE 2018, the IEEE Education Society’s flagship Asia-Pacific (IEEE Region 10) conference.",
+        "10":"2nd International Conference on Modern Management, Education Technology, and Social Science.",
+        "11":"International Conference on Education and Social Development."
+      }
+    } 
+  },
+  "events": {
     "title": "الأحداث",
-
-      "workshop": "الحلقة الدراسية الحرة",
-      "seminar": "ندوات",
-      "media-cover": "تغطية إعلامية"
-    
+    "workshop": {
+      "title": "الحلقة الدراسية الحرة",
+      "w1": {
+        "title":"International Workshop, Tunisia 2019",
+        "introduction":"Hosted the international OER workshop at International conference on ICT & Accessibility (ICTA19conference, in 2019 Tunisia with participants from over 20 countries."
+      }
+    },
+    "seminar": {
+      "title": "ندوات",
+      "s1": {
+        "title":"Open Education Practice and Teacher Capacity Building Forum",
+        "introduction":"The forum is jointly hosted by UNESCO IITE, ALECSO, Beijing Normal University and Beijing Institute of Education. Experts from China, Canada, Romania, Tunisia, India and Palestine shared practices and theoretical development of utilizing OER and OEP across the world. Over 20000 people watched the livestream of the forum online globally."
+      },
+      "s2": {
+        "title":"Asia-Arab Region Collaboration on Inclusion in Education Forum",
+        "introduction":"SILBNU-ALECSO Joint Lab has hosted Asia-Arab Region Collaboration on Inclusion in Education Forum during ITU-UNESCO Regional Digital Integration Week in November 2021."
+      }
+    },
+    "media-cover": {
+      "title": "تغطية إعلامية",
+      "m1": {
+        "title":"The Global Finals of 2021 Global Competition on Design for Future Education Successfully Held at Beijing Normal University",
+        "introduction":"Co-organize the Global Competition on Design for Future Education in order to cultivate talents worldwide and in the Arab region."
+      }
+    }
   },
-  "joinus":{
+  "joinus": {
     "title": "انضم إلينا",
     "introduction": "",
-    "form":{
-      "first-name":"",
-      "last-name":"",
-      "email":"",
-      "phone":"",
-      "country":"",
-      "institution":"",
-      "job-title":"",
-      "research-field":"",
-      "message":""
+    "form": {
+      "first-name": "",
+      "last-name": "",
+      "email": "",
+      "phone": "",
+      "country": "",
+      "institution": "",
+      "job-title": "",
+      "research-field": "",
+      "message": ""
+    }
+  },
+  "common": {
+    "submit": "Submit",
+    "submitted": "Submitted",
+    "languages":{
+      "chinese":"Chinese",
+      "english":"English",
+      "arabic":"Arabic",
+      "turkish":"Turkish"
+    },
+    "contact":{
+      "title":"Contact",
+      "address":"12F, Block A, Jingshi Technology Building, No. 12 Xueyuan South Road, Haidian District, Beijing, China. Postcode: 100082",
+      "phrase":"Get connected with us:"
     }
   }
 }
