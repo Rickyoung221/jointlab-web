@@ -12,8 +12,16 @@ export default function LanguageSwitch(){
         setLang(e.target.value)
         i18n.changeLanguage(e.target.value)
     }
-    
+
     const customStyles = {
+      container:() => ({
+        width: 200,
+      }),
+      option: (provided, state) => ({
+        ...provided,
+        borderBottom: '1px dotted pink',
+        color: state.isSelected ? 'red' : 'blue',
+      }),
       control: (base, state) => ({
         ...base,
         background: "transparent",
@@ -26,27 +34,48 @@ export default function LanguageSwitch(){
         "&:hover": {
           // Overwrittes the different states of border
         borderColor: state.isFocused ? null : null,
-        color: "white",
-        fontColor: "white",
+        
         display: 'flex',
+
         }
       }),
+
       menu: base => ({
         ...base,
         // override border radius to match the box
-        borderRadius: 0,
+        borderRadius: 2,
         // kill the gap
-        marginTop: 0
+        marginTop: 0,
       }),
       menuList: base => ({
         ...base,
         // kill the white space on first and last option
-        padding: 0
+        padding: 0,
       })
+  
     };
-    
+  
     return(
-    
+      <>
+      <Fragment> 
+
+      <Select 
+        styles={customStyles}
+        defaultValue={languageOptions[1]}
+        options={languageOptions}
+        value={lang}
+        theme={(theme) => ({
+          ...theme,
+          borderRadius: 0,
+          colors: {
+            ...theme.colors,
+            primary25: 'primary75',
+            primary: 'white',
+          },
+        })}
+      />
+    </Fragment>
+      
       <div className="languageSwitch">
         <select value={lang} onChange={(e)=>changeLanguage(e)} className="form-select minimal" id="language-switcher">
           <option value="zh"> <MDBIcon flag='china' /> 中文 </option>
@@ -54,7 +83,7 @@ export default function LanguageSwitch(){
           <option value="ar"> <MDBIcon flag='saudi-arabia' /> العربية </option>
         </select>
       </div>
-      
+      </>
       
       
     )

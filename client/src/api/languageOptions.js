@@ -1,6 +1,6 @@
 export const languageOptions = [
-    { value: 'CH', label: '中文' },
-    { value: 'EN', label: 'English' },
-    { value: 'AR', label: 'العربية' },
+    { value: 'ch', label: '中文' },
+    { value: 'en', label: 'English' },
+    { value: 'ar', label: 'العربية' },
 ];
   

@@ -4,5 +4,3 @@ const baiduInfo = {
     API_URL_HTTP:'http://api.fanyi.baidu.com/api/trans/vip/translate',
     API_URL_HTTPS:'https://fanyi-api.baidu.com/api/trans/vip/translate'
 }
-
-export default baiduInfo;
