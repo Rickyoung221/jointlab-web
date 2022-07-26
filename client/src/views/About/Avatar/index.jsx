@@ -1,16 +1,16 @@
-import { MDBContainer, MDBCol, MDBRow } from 'mdb-react-ui-kit';
-import './Avatar.css';
-import Sidebar from '../components/Sidebar';
-import AhmedImg from '@img/vision/avatar/ahmed.jpg';
-import Zhiminimg from '@img/vision/avatar/zhimin.jpg';
-import JialuImg from '@img/vision/avatar/jialu.jpg';
-import RickImg from '@img/vision/avatar/rick.jpeg';
-import { withTranslation } from 'react-i18next';
+import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
+import "./Avatar.css";
+import Sidebar from "../components/Sidebar";
+import AhmedImg from "@img/vision/avatar/ahmed.jpg";
+import Zhiminimg from "@img/vision/avatar/zhimin.jpg";
+import JialuImg from "@img/vision/avatar/jialu.jpg";
+import RickImg from "@img/vision/avatar/rick.jpeg";
+import { withTranslation } from "react-i18next";
 
-function avatarPage({t}) {
+function avatarPage({ t }) {
   return (
     <>
-      <h1> Meet Our Team </h1>
+      <h1> {t("about.team-members.title")} </h1>
       <Sidebar />
       <div className="main-content">
         <MDBContainer fluid className="text-center">
@@ -18,15 +18,22 @@ function avatarPage({t}) {
           <br />
           <MDBRow>
             <MDBCol md="4">
-              <img
-                src={AhmedImg}
-                className="rounded-circle mb-3 avatar-custom"
-                alt="Avatar-Ahmed"
-              />
+              <a
+                href="https://scholar.google.com/citations?user=xmF8jxoAAAAJ&hl=en&oi=ao"
+                target="__blank"
+              >
+                <img
+                  src={AhmedImg}
+                  className="rounded-circle mb-3 avatar-custom more-info"
+                  alt="Avatar-Ahmed"
+                />
+              </a>
               <h5 className="mb-2">
                 <strong>{t("about.team-members.ahmed.name")}</strong>
               </h5>
-              <p className="text-muted">{t("about.team-members.ahmed.job-title")}</p>
+              <p className="text-muted">
+                {t("about.team-members.ahmed.job-title")}
+              </p>
             </MDBCol>
 
             <MDBCol md="4">
@@ -38,7 +45,9 @@ function avatarPage({t}) {
               <h5 className="mb-2">
                 <strong>{t("about.team-members.zhiminli.name")}</strong>
               </h5>
-              <p className="text-muted">{t("about.team-members.zhiminli.job-title")}</p>
+              <p className="text-muted">
+                {t("about.team-members.zhiminli.job-title")}
+              </p>
             </MDBCol>
             <MDBCol md="4">
               <img
@@ -49,13 +58,14 @@ function avatarPage({t}) {
               <h5 className="mb-2">
                 <strong> {t("about.team-members.jialuzhao.name")} </strong>
               </h5>
-              <p className="text-muted">{t("about.team-members.jialuzhao.job-title")}</p>
+              <p className="text-muted">
+                {t("about.team-members.jialuzhao.job-title")}
+              </p>
             </MDBCol>
           </MDBRow>
           <br />
           <br />
           <MDBRow>
-
             <MDBCol md="4">
               <img
                 src={RickImg}
@@ -65,7 +75,9 @@ function avatarPage({t}) {
               <h5 className="mb-2">
                 <strong>{t("about.team-members.rickyoung.name")}</strong>
               </h5>
-              <p className="text-muted">{t("about.team-members.rickyoung.job-title")}</p>
+              <p className="text-muted">
+                {t("about.team-members.rickyoung.job-title")}
+              </p>
             </MDBCol>
           </MDBRow>
           <br />

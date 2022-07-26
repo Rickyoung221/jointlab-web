@@ -1,6 +1,5 @@
 img.avatar-custom {
   width: 150px;
-  vertical-align: middle;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -20,4 +19,8 @@ img.avatar-custom {
   font-size: 130%;
   line-height: 1;
   font-family: var(--font-display);
+}
+
+img.more-info:hover {
+  opacity: 0.8;
 }

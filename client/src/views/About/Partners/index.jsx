@@ -27,7 +27,7 @@ function partnersPage({t}) {
             <MDBRow className="g-0">
               <MDBCol md="4">
                 <MDBCardImage
-                  className="rounded img-size "
+                  className="rounded img-size"
                   src={NetDragonLogo}
                   alt="NetDragon"
                   fluid

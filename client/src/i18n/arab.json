@@ -21,11 +21,11 @@
     "vision&mission": {
       "title": "الرؤية والرسالة",
       "mission": {
-        "title": "Mission",
+        "title": "الرؤية",
         "part1": "نحن ملتزمون بتعزيز البحوث المتطورة في مجال تكنولوجيا التعليم، مع التركيز على مصادر التعليم المفتوح، و ميتافيرس  (metaverse) التعليم والذكاء الاصطناعي في التعليم.",
-        "part2": "We are committed to improve the international collaboration between China and the Arab region through joint research projects, international conferences, webinars, and seminars to bridges the scholars in China and the Arab region and enhance the communication.",
-        "part3": "We are passionate about integrating education technology into educational practices with the goal to benefit students and educators in the Arab region and beyond.",
-        "part4": "We hope to promote smart education by organizing ICT related teacher training events and establishing education showroom in the Arab region."
+        "part2": "نحن ملتزمون بتحسين التعاون الدولي بين الصين والمنطقة العربية من خلال مشاريع بحثية مشتركة، ومؤتمرات دولية، وندوات عبر الإنترنت، وندوات لجسر العلماء في الصين والمنطقة العربية وتعزيز التواصل.",
+        "part3": "نحن متحمسون لدمج تكنولوجيا التعليم في الممارسات التعليمية بهدف إفادة الطلاب والمعلمين في المنطقة العربية وخارجها.",
+        "part4": "نأمل في تعزيز التعليم الذكي من خلال تنظيم فعاليات تدريب المعلمين المتعلقة بتكنولوجيا المعلومات والاتصالات وإنشاء صالات عرض تعليمية في المنطقة العربية.        "
       }
     },
     "team-members": {
@@ -55,7 +55,7 @@
       "title": "شركاؤنا",
       "net-dragon": {
         "name": "نيت دراغون",
-        "introduction": ""
+        "introduction": "نيت دراغون الشبكة القابضة المحدودة، التي تأسست عام 1999، هي شركة مبتكرة بارزة في صناعات الألعاب والتعليم عبر الإنترنت في الصين. بصفتها أول صانع ألعاب صيني نجح في التوسع خارج سوقه المحلية ، قامت 'نيت دراغون' بترجمة منتجاتها إلى أكثر من 10 لغات مختلفة، بما في ذلك الإنجليزية والفرنسية والإسبانية والعربية، ووصلت إلى أكثر من 65 مليون مستخدم تغطي 180 سوقا."
       },
       "elernity": {
         "name": "اليرنيتي",
@@ -72,27 +72,27 @@
     "ongoing-projects": {
       "title": "مشاريع جارية",
       "part1":{
-        "name":"Science Textbook Comparison Project",
-        "introduction":"The project aims to compare science education textbooks in China and the Arab region. The project mainly collected 13 ninth grade science textbooks from 4 countries. The project has established a validated framework for comparing textbooks with international experts. From Textbook structure, Cognitive expectations, Illustration efficiency, Gender representation, Technology use, Learning goals analysis dimensions to comparative analysis of science textbooks of China, Egypt, Oman and Tunisia."
+        "name":"مشروع مقارنة الكتب المدرسية العلمية",
+        "introduction":"يهدف المشروع إلى مقارنة كتب تعليم العلوم في الصين والمنطقة العربية. جمع المشروع بشكل أساسي 13 كتابًا علميًا للصف التاسع من 4 دول. وضع المشروع إطارًا مصدقًا عليه لمقارنة الكتب المدرسية بالخبراء الدوليين. من أبعاد هيكل الكتاب المدرسي، والتوقعات المعرفية، وكفاءة التوضيح، والتمثيل الجنسانية، واستخدام التكنولوجيا، وتحليل أهداف التعلم، يجري المشروع تحليلًا مقارنًا للكتب العلمية في الصين، ومصر، وعمان، وتونس.        "
       },
       "part2":{
-        "name":"Arab Region Education Technology Industry Investigation",
-        "introduction":"The program aims to investigate educational technology industry in the Arab region with a focus of EdTech Startups. By collecting and analyzing the information of the scales, services and products, technology of the Ed-tech startups, the project aims to understanding the landscape of the EdTech industry in the Arab region, especially the market and major players."
+        "name":"تحقيقات صناعة تكنولوجيا التعليم في المنطقة العربية",
+        "introduction":"يهدف البرنامج إلى استكشاف صناعة تكنولوجيا التعليم في المنطقة العربية مع التركيز على الشركات الناشئة في مجال تكنولوجيا التعليم (Ed-tech startups). من خلال جمع وتحليل المعلومات الخاصة بالمقاييس والخدمات والمنتجات وتكنولوجيا الشركات الناشئة في مجال تكنولوجيا التعليم، يهدف المشروع إلى فهم مشهد صناعة تكنولوجيا التعليم في المنطقة العربية، وخاصة السوق واللاعبين الرئيسيين. "
       },
       "part3":{
-        "name":"Metaverse Education",
-        "introduction":"The project aims to analyze the implementation and impact of the metaverse in education to provide richer interactions for students and teachers. In-depth sharing of insights into the metaverse and future directions in education by inviting international experts to hold a webinar. As an extension of this project, international experts will be invited to papers and publish books as co-authors."
+        "name":"تعليم ميتافيرس",
+        "introduction":"مشاركة متعمقة للرؤى حول ميتافيرس' والمستقبلية في التعليم من خلال دعوة خبراء دوليين لعقد ندوة عبر الإنترنت. كامتداد لهذا المشروع، سيتم دعوة خبراء دوليين للمشاركة في الأبحاث ونشر الكتب كمؤلفين مشاركين. "
       }
     },
     "finished-projects": {
       "title": "مشاريع منتهية",
       "part1":{
-        "name":"Open Interactive Database",
-        "introduction":"In line with the Open Science wave, an Open Interactive Database which contains detailed statistics related to the Arab region——22 countries was developed. Specifically, the indicators covered by the OID, such as in the field of economy, culture and education, can help to evaluate the Arab countries' achievement towards 17 SDGs. The purpose of the OID is to provide open-access to data about the Arab region, which researchers, practitioners and decision makers can use to understand, explore and enhance a given field. In addition, this data can promote cross-collaboration between countries to promote the growth of all countries in the Arab region."
+        "name":"قاعدة بيانات تفاعلية مفتوحة",
+        "introduction":"وتماشيا مع موجة العلوم المفتوحة، تم تطوير قاعدة بيانات تفاعلية مفتوحة تحتوي على إحصاءات مفصلة تتعلق بالمنطقة العربية، حيث تم تطوير 22 بلدا.  وعلى وجه التحديد، يمكن للمؤشرات التي تغطيها OID، كما هو الحال في مجال الاقتصاد والثقافة والتعليم، أن تساعد في تقييم إنجاز البلدان العربية نحو تحقيق 17 هدفا من أهداف التنمية المستدامة.  الغرض من OID هو توفير الوصول المفتوح إلى البيانات حول المنطقة العربية ، والتي يمكن للباحثين والممارسين وصناع القرار استخدامها لفهم واستكشاف وتعزيز مجال معين.  بالإضافة إلى ذلك، يمكن لهذه البيانات تعزيز التعاون المتبادل بين البلدان لتعزيز نمو جميع البلدان في المنطقة العربية."
       },
       "part2":{
-        "name":"Education Development in the Arab Region",
-        "introduction":"A book titled An Overview of Education Development in the Arab Region: Insights and Recommendations Towards Sustainable Development Goals (SDG) is released by SLIBNU-ALECSO ‘Smart Education’ Joint Lab. The book is an outcome of the Open Interactive Database Project, in collaboration between the Smart Learning Institute of Beijing Normal University and the Arab League Educational, Cultural and Scientific Organization. This book aims to provide a comprehensive understanding of the education development in the Arab region. The book reveals that major efforts have been made by many Arab countries, especially those in Sub-Saharan Africa, over the past decade to improve education access."
+        "name":"تطوير التعليم في المنطقة العربية",
+        "introduction":"صدر كتاب بعنوان 'نظرة عامة على تطوير التعليم في المنطقة العربية: رؤى وتوصيات نحو تحقيق أهداف التنمية المستدامة'عن مختبر 'التعليم الذكي' المشترك بين SLIBNU والألكسو.  ويعد الكتاب ثمرة مشروع قاعدة البيانات التفاعلية المفتوحة، بالتعاون بين معهد التعلم الذكي بجامعة بكين العادية والمنظمة العربية للتربية والثقافة والعلوم.  يهدف هذا الكتاب إلى توفير فهم شامل لتطوير التعليم في المنطقة العربية.  ويكشف الكتاب أن العديد من البلدان العربية بذلت جهودا كبيرة، وخاصة تلك الموجودة في أفريقيا جنوب الصحراء الكبرى، على مدى العقد الماضي لتحسين فرص الحصول على التعليم."
       }
     }
   },
@@ -102,28 +102,28 @@
     "reports": {
       "title": "تقارير",
       "part1": {
-        "title": "",
-        "content": ""
+        "title":"Handbook on Facilitating FlHnaHankexible Learning in COVID 19 Outbreak",
+        "content":"Inspired by the united solidarity and innovative experiences of millions of teachers and students, this handbook aims to define the term “flexible learning” with vivid examples and touching stories. It describes several implemented flexible online learning strategies during the COVID-19 outbreak. These strategies are presented based on six dimensions, namely (a) infrastructure, (b) learning tools, (c) learning resources, (d) teaching and learning methods, (e) services for teachers and students, and (f) cooperation between enterprise, government, and schools. Specifically, this handbook can help other educators, researchers and practitioners implement similar case studies in their context."
       },
       "part2": {
-        "title": "",
-        "content": ""
+        "title":"Guidance on Providing Open and Distance Learning for Students with Disabilities during School Closures",
+        "content":"This handbook discusses open and distance learning for students with disabilities during COVID-19, through vivid stories and experiences. Particularly, it describes, through illustrative stories, innovative approaches on how to design learning activities in open and distance learning environments for students with disabilities. Additionally, this handbook provides guidelines on designing accessible learning materials based on Universal Design (UD). Finally, it provides guidelines for different stakeholders, including parents, policy makers, teachers and designers on how to facilitate open and distance learning for students with disabilities."
       },
       "part3": {
-        "title": "",
-        "content": ""
+        "title":"Guidance on Open Educational Practices during School Closure: Utilizing OER under COVID-19 Pandemic in line with UNESCO OER Recommendation",
+        "content":"This handbook discusses the use of OEP and OER during COVID-19 outbreak through global vivid stories and experiences, and in line with the five UNESCO objectives. It also discusses OER competencies for OEP. Finally, this handbook provides guidelines to both teachers and learners to facilitate OEP and OER application."
       },
       "part4": {
-        "title": "",
-        "content": ""
+        "title":"Interactive Book on Artificial Intelligence to Combat Pandemics",
+        "content":"This book introduces AI to children, between the age of 9 and 15, in an easy and fun way. It also presents vivid stories about some AI-based solutions that were developed to combat the pandemic. Furthermore, this book presents a hands-on learning experience about AI by showing simple programming code that children could use and implement on the JupyterLab environment."
       },
       "part5": {
-        "title": "",
-        "content": ""
+        "title":"Guidance on Active Learning at Home during Educational Disruption: Promoting",
+        "content":"A SCIENCE model of learning actively at home during school closures is proposed for students. The SCIENCE model consists of seven elements: Scheduling learning and playing in balance , Choosing learning resources on demand, Inspiring the study from playing , Engaged in learning by self-monitoring, Nourishing learning ability with e-assessment, Carrying out reflection on learning methods , Exercising daily and moderately. Tips and stories on student’s learning associated with active learning are presented. In the end, suggestions on how to maintain physical and mental health are also discussed."
       },
       "part6": {
-        "title": "",
-        "content": ""
+        "title":"An Overview of Education Development in the Arab Region: Insights and Recommendations Towards Sustainable Development Goals (SDG)",
+        "content":"This book aims to provide a comprehensive understanding of educational development in the Arab region and reveals that many Arab countries, especially sub-Saharan African countries, have made significant efforts to improve educational opportunities over the past decade. This book could help to achieve the Sustainable Development Goals put forward by United Nation in the Arab region. It could also provide insights for policy makers, researchers, and educators who are interested in the education development in the Arab region. We hope that this book could promote further research and cooperation between China and the Arab region in the field of education. The current influence of the book includes 1) the book has been published on SLIBNU, ALECSO and UNESCO IITE websites; 2) the book has been acquired on ResearchGate read it more than 200 times; 3) The book was sent to the Egyptian Ministry of Education."
       }
     },
 
@@ -154,26 +154,26 @@
     "workshop": {
       "title": "الحلقة الدراسية الحرة",
       "w1": {
-        "title":"International Workshop, Tunisia 2019",
-        "introduction":"Hosted the international OER workshop at International conference on ICT & Accessibility (ICTA19conference, in 2019 Tunisia with participants from over 20 countries."
+        "title":"2019 ورشة عمل دولية، تونس",
+        "introduction":"استضافت ورشة العمل الدولية للموارد التعليمية المفتوحة في المؤتمر الدولي حول تكنولوجيا المعلومات والاتصالات وإمكانية الوصول (ICTA19conference) ، في 2019 تونس مع مشاركين من أكثر من 20 دولة."
       }
     },
     "seminar": {
       "title": "ندوات",
       "s1": {
-        "title":"Open Education Practice and Teacher Capacity Building Forum",
-        "introduction":"The forum is jointly hosted by UNESCO IITE, ALECSO, Beijing Normal University and Beijing Institute of Education. Experts from China, Canada, Romania, Tunisia, India and Palestine shared practices and theoretical development of utilizing OER and OEP across the world. Over 20000 people watched the livestream of the forum online globally."
+        "title":"منتدى ممارسة التعليم المفتوح وبناء قدرات المعلمين",
+        "introduction":"يتم استضافة المنتدى بشكل مشترك من قبل معهد تكنولوجيا المعلومات في التعليم اليونسكو (UNESCO IITE) ومنظمة جامعة الدول العربية للتربية والثقافة والعلوم (ALECSO) وجامعة بكين للمعلمين ومعهد بكين للتعليم. تبادل خبراء من الصين وكندا ورومانيا وتونس والهند وفلسطين الممارسات والتطور النظري لاستخدام الموارد التعليمية المفتوحة وممارسات التعليم المفتوح في جميع أنحاء العالم. شاهد أكثر من 20000 شخص البث المباشر للمنتدى عبر الإنترنت على مستوى العالم."
       },
       "s2": {
-        "title":"Asia-Arab Region Collaboration on Inclusion in Education Forum",
-        "introduction":"SILBNU-ALECSO Joint Lab has hosted Asia-Arab Region Collaboration on Inclusion in Education Forum during ITU-UNESCO Regional Digital Integration Week in November 2021."
+        "title":"منتدى التعاون الإقليمي الآسيوي العربي حول الإدماج في التعليم",
+        "introduction":"استضاف مختبر 'SLIBNU-ALECSO' (سليبنو-ألكيسو) المشترك منتدى التعاون الإقليمي الآسيوي العربي حول الإدماج في التعليم خلال أسبوع التكامل الرقمي الإقليمي بين الاتحاد الدولي للاتصالات واليونسكو (ITU-UNESCO) في نوفمبر 2021."
       }
     },
     "media-cover": {
       "title": "تغطية إعلامية",
       "m1": {
-        "title":"The Global Finals of 2021 Global Competition on Design for Future Education Successfully Held at Beijing Normal University",
-        "introduction":"Co-organize the Global Competition on Design for Future Education in order to cultivate talents worldwide and in the Arab region."
+        "title":"بنجاحأقيمت النهائيات العالمية لعام 2021 في مسابقة التصميم من أجل التعليم المستقبلي في جامعة بكين للمعلمين ",
+        "introduction":"شارك في تنظيم المسابقة العالمية حول التصميم من أجل التعليم المستقبلي من أجل تنمية المواهب في جميع أنحاء العالم وخاصة في المنطقة العربية."
       }
     }
   },
@@ -181,30 +181,30 @@
     "title": "انضم إلينا",
     "introduction": "",
     "form": {
-      "first-name": "",
-      "last-name": "",
-      "email": "",
-      "phone": "",
-      "country": "",
-      "institution": "",
-      "job-title": "",
-      "research-field": "",
-      "message": ""
+      "first-name": "* الاسم الأول",
+      "last-name": "* اسم العائلة",
+      "email": "* البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "country": "بلد",
+      "institution": "* المؤسسه",
+      "job-title": "* المسمى الوظيفي",
+      "research-field": "مجال البحث",
+      "message": "رسالة"
     }
   },
   "common": {
-    "submit": "Submit",
-    "submitted": "Submitted",
+    "submit": "إرسال",
+    "submitted": "مقدم",
     "languages":{
-      "chinese":"Chinese",
-      "english":"English",
-      "arabic":"Arabic",
-      "turkish":"Turkish"
+      "chinese":"الصينية",
+      "english":"الإنكليزية",
+      "arabic":"العربية",
+      "turkish":"التركية"
     },
     "contact":{
-      "title":"Contact",
-      "address":"12F, Block A, Jingshi Technology Building, No. 12 Xueyuan South Road, Haidian District, Beijing, China. Postcode: 100082",
-      "phrase":"Get connected with us:"
+      "title":"انضم إلينا",
+      "address":"موقع:الطابق 12، مبنى التكنولوجيا جينغ شي، رقم 12 طريق شيوه يوان الجنوبي، منطقة هايديان، بكين، الصين",
+      "phrase":"تواصل معنا:"
     }
   }
 }
