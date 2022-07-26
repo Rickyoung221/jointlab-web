@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.e5dc52dd.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.c18f9e1d.js",
+    "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.87fc0371.css",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.4f5127fe.js",
     "static/media/textbooks.png": "https://rickyoung221.github.io/jointlab-web/static/media/textbooks.26ede65f33b59dc09a80.png",
     "static/media/team_structure.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/team_structure.da2b9e2419dbe4d969b4.jpg",
     "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.4d94ccf13a480f0f1bae.jpg",
@@ -41,7 +41,7 @@
     "static/media/workshop1.md": "https://rickyoung221.github.io/jointlab-web/static/media/workshop1.7c93cb6528406de052cd.md"
   },
   "entrypoints": [
-    "static/css/main.e5dc52dd.css",
-    "static/js/main.c18f9e1d.js"
+    "static/css/main.87fc0371.css",
+    "static/js/main.4f5127fe.js"
   ]
 }
