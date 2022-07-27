@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.87fc0371.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.44061b4f.js",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.cdcf6d6c.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "https://rickyoung221.github.io/jointlab-web/static/media/Inter-VariableFont_slnt,wght.b4c30855aff392d7e8dc.ttf",
-    "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.7d93dd7b95dee52cd3ec.jpg",
+    "static/media/jialu.gif": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.7d93dd7b95dee52cd3ec.gif",
     "static/media/textbooks.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/textbooks.6401885fa5818002e6b7.jpg",
     "static/media/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png": "https://rickyoung221.github.io/jointlab-web/static/media/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.b117f8cc4fdd1d9d4eee.png",
-    "static/media/zhimin.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/zhimin.1aac7c7fcd9700515e38.jpg",
+    "static/media/zhimin.gif": "https://rickyoung221.github.io/jointlab-web/static/media/zhimin.1aac7c7fcd9700515e38.gif",
     "static/media/logo-white-font.png": "https://rickyoung221.github.io/jointlab-web/static/media/logo-white-font.32ba2d160d8346310cd7.png",
     "static/media/Picture1.png": "https://rickyoung221.github.io/jointlab-web/static/media/Picture1.6aba6a6515f359c322d8.png",
     "static/media/team_structure.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/team_structure.5b236ca6417148254295.jpg",
@@ -26,7 +26,7 @@
     "static/media/Classin-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Classin-logo.6e2a4398c9c63a6454aa.jpg",
     "static/media/HankBook.gif": "https://rickyoung221.github.io/jointlab-web/static/media/HankBook.038a01a08f87250af524.gif",
     "static/media/2-Arab-region-educatio-technology-industry-investigation.png": "https://rickyoung221.github.io/jointlab-web/static/media/2-Arab-region-educatio-technology-industry-investigation.0c877e693edf20bc8ecd.png",
-    "static/media/ahmed.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/ahmed.9d1e781d850447d7af0b.jpg",
+    "static/media/ahmed.gif": "https://rickyoung221.github.io/jointlab-web/static/media/ahmed.9d1e781d850447d7af0b.gif",
     "static/media/education_development.gif": "https://rickyoung221.github.io/jointlab-web/static/media/education_development.32e680b3fc8ec3bcaad8.gif",
     "static/media/3-Metaverse-education.png": "https://rickyoung221.github.io/jointlab-web/static/media/3-Metaverse-education.a530bbf652cddbb72916.png",
     "static/media/qrcode_smartlearning_BNU_1.jpeg": "https://rickyoung221.github.io/jointlab-web/static/media/qrcode_smartlearning_BNU_1.2d4acc2e74c0c1a5b993.jpeg",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.87fc0371.css",
-    "static/js/main.44061b4f.js"
+    "static/js/main.cdcf6d6c.js"
   ]
 }
