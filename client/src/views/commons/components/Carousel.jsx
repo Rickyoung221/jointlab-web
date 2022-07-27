@@ -8,9 +8,9 @@ import {
   MDBCarouselCaption,
   MDBContainer,
 } from "mdb-react-ui-kit";
-import slide_1 from "@img/home/edtech-1.png";
-import slide_2 from "@img/home/overview-1.png";
-import slide_3 from "@img/home/textbooks.png";
+import slide_1 from "@img/home/edtech-1.jpg";
+import slide_2 from "@img/home/overview-1.jpg";
+import slide_3 from "@img/home/textbooks.jpg";
 import "./Carousel.css";
 import { withTranslation } from 'react-i18next';
 

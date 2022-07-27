@@ -1,6 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import ItemList from "../../commons/components/ItemList";
-import gse from "@img/home/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png";
+import gse from "@img/event/seminar/GSE_2021_OEP_and_Teacher_Cap_city_Building_Forum.png";
 import index from "@img/event/seminar/index.png";
 import { withTranslation } from 'react-i18next';
 

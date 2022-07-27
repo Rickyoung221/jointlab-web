@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import AhmedImg from "@img/vision/avatar/ahmed.jpg";
 import Zhiminimg from "@img/vision/avatar/zhimin.jpg";
 import JialuImg from "@img/vision/avatar/jialu.jpg";
-import RickImg from "@img/vision/avatar/rick.jpeg";
+import RickImg from "@img/vision/avatar/rick.gif";
 import { withTranslation } from "react-i18next";
 
 function avatarPage({ t }) {
