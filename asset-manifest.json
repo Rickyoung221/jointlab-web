@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.87fc0371.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.ab76ee2e.js",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.d43e5489.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "https://rickyoung221.github.io/jointlab-web/static/media/Inter-VariableFont_slnt,wght.b4c30855aff392d7e8dc.ttf",
     "static/media/jialu.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.7d93dd7b95dee52cd3ec.jpg",
     "static/media/textbooks.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/textbooks.6401885fa5818002e6b7.jpg",
@@ -17,7 +17,7 @@
     "static/media/1-Science-textbook-comparison.png": "https://rickyoung221.github.io/jointlab-web/static/media/1-Science-textbook-comparison.559862dd8877174289d3.png",
     "static/media/educational_practces.gif": "https://rickyoung221.github.io/jointlab-web/static/media/educational_practces.9b87788ca0f72f5b61ce.gif",
     "static/media/edtech-1.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/edtech-1.603157cb24128010520e.jpg",
-    "static/media/rick.jpeg": "https://rickyoung221.github.io/jointlab-web/static/media/rick.89ef90175f9f71d0fb7e.jpeg",
+    "static/media/rick.gif": "https://rickyoung221.github.io/jointlab-web/static/media/rick.89ef90175f9f71d0fb7e.gif",
     "static/media/ai_combat_pandemics.gif": "https://rickyoung221.github.io/jointlab-web/static/media/ai_combat_pandemics.035078a1dbade8414d12.gif",
     "static/media/4-Open-Interactive-Database.png": "https://rickyoung221.github.io/jointlab-web/static/media/4-Open-Interactive-Database.ab979cf8c50245711c14.png",
     "static/media/overview-1.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/overview-1.c8a8a49db75bb9babda4.jpg",
@@ -42,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.87fc0371.css",
-    "static/js/main.ab76ee2e.js"
+    "static/js/main.d43e5489.js"
   ]
 }
