@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.87fc0371.css",
-    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.d9d3eda9.js",
+    "main.css": "https://rickyoung221.github.io/jointlab-web/static/css/main.cea1d80b.css",
+    "main.js": "https://rickyoung221.github.io/jointlab-web/static/js/main.6f63252b.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "https://rickyoung221.github.io/jointlab-web/static/media/Inter-VariableFont_slnt,wght.b4c30855aff392d7e8dc.ttf",
     "static/media/jialu.gif": "https://rickyoung221.github.io/jointlab-web/static/media/jialu.7d93dd7b95dee52cd3ec.gif",
     "static/media/textbooks.gif": "https://rickyoung221.github.io/jointlab-web/static/media/textbooks.6401885fa5818002e6b7.gif",
@@ -23,15 +23,13 @@
     "static/media/overview-1.gif": "https://rickyoung221.github.io/jointlab-web/static/media/overview-1.c8a8a49db75bb9babda4.gif",
     "static/media/providing_open_distance_learning.gif": "https://rickyoung221.github.io/jointlab-web/static/media/providing_open_distance_learning.f69f2ba0bcec09fc681b.gif",
     "static/media/active_learning_at_home.gif": "https://rickyoung221.github.io/jointlab-web/static/media/active_learning_at_home.390607b8befbadb0c636.gif",
-    "static/media/Classin-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Classin-logo.6e2a4398c9c63a6454aa.jpg",
     "static/media/HankBook.gif": "https://rickyoung221.github.io/jointlab-web/static/media/HankBook.038a01a08f87250af524.gif",
     "static/media/2-Arab-region-educatio-technology-industry-investigation.png": "https://rickyoung221.github.io/jointlab-web/static/media/2-Arab-region-educatio-technology-industry-investigation.0c877e693edf20bc8ecd.png",
     "static/media/ahmed.gif": "https://rickyoung221.github.io/jointlab-web/static/media/ahmed.9d1e781d850447d7af0b.gif",
     "static/media/education_development.gif": "https://rickyoung221.github.io/jointlab-web/static/media/education_development.32e680b3fc8ec3bcaad8.gif",
     "static/media/3-Metaverse-education.png": "https://rickyoung221.github.io/jointlab-web/static/media/3-Metaverse-education.a530bbf652cddbb72916.png",
     "static/media/qrcode_smartlearning_BNU_1.jpeg": "https://rickyoung221.github.io/jointlab-web/static/media/qrcode_smartlearning_BNU_1.2d4acc2e74c0c1a5b993.jpeg",
-    "static/media/NetDragon-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/NetDragon-logo.341fc80574861ae2c7e6.jpg",
-    "static/media/Elernity-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Elernity-logo.fd77d36890d978686df5.jpg",
+    "static/media/Classin-logo.jpg": "https://rickyoung221.github.io/jointlab-web/static/media/Classin-logo.83d344f1e1d980a5657f.jpg",
     "static/media/Journal.md": "https://rickyoung221.github.io/jointlab-web/static/media/Journal.db55e397bf9f5ca230b2.md",
     "static/media/template.md": "https://rickyoung221.github.io/jointlab-web/static/media/template.2845b37e53b5455a27e9.md",
     "static/media/seminar1.md": "https://rickyoung221.github.io/jointlab-web/static/media/seminar1.8eb8338557fde7aeda2f.md",
@@ -41,7 +39,7 @@
     "static/media/workshop1.md": "https://rickyoung221.github.io/jointlab-web/static/media/workshop1.7c93cb6528406de052cd.md"
   },
   "entrypoints": [
-    "static/css/main.87fc0371.css",
-    "static/js/main.d9d3eda9.js"
+    "static/css/main.cea1d80b.css",
+    "static/js/main.6f63252b.js"
   ]
 }
