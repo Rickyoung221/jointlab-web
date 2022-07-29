@@ -6,6 +6,11 @@
 
 Covid-19 has brought new challenges to education. Open Education Practice and Teacher Capacity Building Forum of Global Smart Education Conference on August 19, 2021, explored how to increase education resilience through the adoption of open education. UNESCO IITE, Arab League Educational, Cultural and Scientific Organization (ALECSO), Beijing Normal University, and Beijing Institute of Education jointly organized the Forum. Experts from China, Canada, Romania, Tunisia, India, and Palestine shared practices and theoretical development of utilizing OER and OEP. Over 20,000 people watched the live stream of the Forum online globally.
 
+
+منتدى ممارسة التعليم المفتوح وبناء قدرات المعلمين
+ جلب Covid-19 تحديات جديدة للتعليم.  استكشف منتدى ممارسة التعليم المفتوح وبناء قدرات المعلمين للمؤتمر العالمي للتعليم الذكي في 19 أغسطس 2021 كيفية زيادة مرونة التعليم من خلال اعتماد التعليم المفتوح.  نظم المنتدى بالاشتراك بين منظمة جامعة الدول العربية للتربية والثقافة والعلوم (UNESCO IITE) والمنظمة العربية للتربية والثقافة والعلوم (ALECSO) وجامعة بكين للمعلمين ومعهد بكين للتعليم.  تبادل خبراء من الصين وكندا ورومانيا وتونس والهند وفلسطين الممارسات والتطور النظري لاستخدام الموارد التعليمية المفتوحة والمكتب المفتوح.  شاهد أكثر من 20000 شخص البث المباشر للمنتدى عبر الإنترنت على مستوى العالم.
+
+
 ## OER Recommendations and Research
 
 In November 2019, UNESCO announced the OER Recommendation to support the development and sharing of openly-licensed learning and teaching materials. UNESCO suggests that the implementation of the Recommendation will contribute to the achievement of the SDGs. Dr. Ebba Ossiannilsson, OER Chair at the International Council for Open and Distance Education (ICDE) advocated future studies in line with the Recommendation. She also reviewed the definitions and frameworks for the OER research. Dr. Rory McGreal, from Athabasca University (Canada), delivered a speech on how OER can support SGD4. The expert also gave his recommendations for policymakers and universities.
