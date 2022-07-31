@@ -18,10 +18,11 @@
 }
 
 .App-logo {
-  width: 350px;
+  max-width: 15rem;
+  width:auto;
   height: auto;
-  -webkit-user-select: none;
-  pointer-events:none;
+  display: inline-block;
+  margin:auto;
 }
 
 .selected {

@@ -5,7 +5,6 @@
     border-radius: 4px;
     background-color: transparent;
     border: none;
-    color: white;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -26,6 +25,18 @@ select.minimal {
         5px 5px,
         1px 1.5em;
     background-repeat: no-repeat;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: white;
+
+    /* background: url(./ossweb-img/btn-select.png) no-repeat scroll right 0.03rem
+      transparent; */
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+
+
+
 }
 
 select.minimal:focus {
@@ -41,19 +52,7 @@ select.minimal:focus {
         5px 5px,
         1px 1.5em;
     background-repeat: no-repeat;
-    border-color: green;
     outline: 0;
+
 }
 
-.languageSwitcher {
-    width: auto;
-    font: inherit;
-    border-radius: 4px;
-    background-color: transparent;
-    border: none;
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    font-size: 90%;
-    cursor: pointer;
-}

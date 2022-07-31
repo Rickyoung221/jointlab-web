@@ -1,9 +1,9 @@
 import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import "./Avatar.css";
 import Sidebar from "../components/Sidebar";
-import AhmedImg from "@img/vision/avatar/ahmed.jpg";
-import Zhiminimg from "@img/vision/avatar/zhimin.jpg";
-import JialuImg from "@img/vision/avatar/jialu.jpg";
+import AhmedImg from "@img/vision/avatar/ahmed.gif";
+import Zhiminimg from "@img/vision/avatar/zhimin.gif";
+import JialuImg from "@img/vision/avatar/jialu.gif";
 import RickImg from "@img/vision/avatar/rick.gif";
 import { withTranslation } from "react-i18next";
 
@@ -65,21 +65,8 @@ function avatarPage({ t }) {
           </MDBRow>
           <br />
           <br />
-          <MDBRow>
-            <MDBCol md="4">
-              <img
-                src={RickImg}
-                className="rounded-circle mb-3 avatar-custom"
-                alt="Avatar-Rick"
-              />
-              <h5 className="mb-2">
-                <strong>{t("about.team-members.rickyoung.name")}</strong>
-              </h5>
-              <p className="text-muted">
-                {t("about.team-members.rickyoung.job-title")}
-              </p>
-            </MDBCol>
-          </MDBRow>
+          
+
           <br />
           <br />
         </MDBContainer>

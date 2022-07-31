@@ -2,7 +2,7 @@
 import { MDBIcon } from "mdb-react-ui-kit";
 import i18n from "../../../../i18n";
 import React, { useState, Fragment } from "react";
-import Select, { NonceProvider } from 'react-select';
+import Select from 'react-select';
 import { languageOptions } from "@api/languageOptions";
 import './LanguageSwitch.css';
 
@@ -57,25 +57,6 @@ export default function LanguageSwitch(){
   
     return(
       <>
-      <Fragment> 
-
-      <Select 
-        styles={customStyles}
-        defaultValue={languageOptions[1]}
-        options={languageOptions}
-        value={lang}
-        theme={(theme) => ({
-          ...theme,
-          borderRadius: 0,
-          colors: {
-            ...theme.colors,
-            primary25: 'primary75',
-            primary: 'white',
-          },
-        })}
-      />
-    </Fragment>
-      
       <div className="languageSwitch">
         <select value={lang} onChange={(e)=>changeLanguage(e)} className="form-select minimal" id="language-switcher">
           <option value="zh"> <MDBIcon flag='china' /> 中文 </option>

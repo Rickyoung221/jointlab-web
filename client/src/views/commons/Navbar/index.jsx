@@ -13,11 +13,9 @@ import {
 import "./Navbar.css";
 import logo from "@img/common/logo-white-font.png";
 import LanguageSwitch from "./LanguageSwitch";
-import { withTranslation } from 'react-i18next';
+import { withTranslation } from "react-i18next";
 
-
-
-function NavbarPage({t}) {
+function NavbarPage({ t }) {
   const [showBasic, setShowBasic] = useState(false);
   const bgBlue = { backgroundColor: "#1F4E79" };
   const notJump = (e) => {
@@ -26,9 +24,17 @@ function NavbarPage({t}) {
 
   return (
     <div className="nav-sticky">
-      <MDBNavbar className='navbar-height' expand="lg" dark style={bgBlue} sticky>
+      <MDBNavbar
+        className="navbar-height"
+        expand="lg"
+        dark
+        style={bgBlue}
+        sticky
+      >
         <MDBContainer fluid>
-          <Link to='/'> <img src={logo} className="App-logo" alt="logo" /> </Link>
+          <Link to="/">
+            <img src={logo} className="App-logo" alt="logo" />
+          </Link>
           <MDBNavbarToggler
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
@@ -71,16 +77,19 @@ function NavbarPage({t}) {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <NavLink to="/aboutUs/mission" className="dropdown-item">
-                    {t("about.vision&mission.title")}
+                      {t("about.vision&mission.title")}
                     </NavLink>
                     <NavLink to="/aboutUs/avatar" className="dropdown-item">
-                    {t("about.team-members.title")}
+                      {t("about.team-members.title")}
                     </NavLink>
-                    <NavLink to="/aboutUs/advisory-board" className="dropdown-item">
-                    {t("about.advisory-structure.title")}
+                    <NavLink
+                      to="/aboutUs/advisory-board"
+                      className="dropdown-item"
+                    >
+                      {t("about.advisory-structure.title")}
                     </NavLink>
                     <NavLink to="/aboutUs/partners" className="dropdown-item">
-                    {t("about.our-partners.title")}
+                      {t("about.our-partners.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -107,13 +116,13 @@ function NavbarPage({t}) {
                       to="/research/ongoing-projects"
                       className="dropdown-item"
                     >
-                    {t("research.ongoing-projects.title")}
+                      {t("research.ongoing-projects.title")}
                     </NavLink>
                     <NavLink
                       to="/research/finished-projects"
                       className="dropdown-item"
                     >
-                    {t("research.finished-projects.title")}
+                      {t("research.finished-projects.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -140,19 +149,19 @@ function NavbarPage({t}) {
                       to="/publication/reports"
                       className="dropdown-item"
                     >
-                    {t("publications.reports.title")}
+                      {t("publications.reports.title")}
                     </NavLink>
                     <NavLink
                       to="/publication/journal-articles"
                       className="dropdown-item"
                     >
-                    {t("publications.journal-articles.title")}
+                      {t("publications.journal-articles.title")}
                     </NavLink>
                     <NavLink
                       to="/publication/conferences"
                       className="dropdown-item"
                     >
-                    {t("publications.conferences.title")}
+                      {t("publications.conferences.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -176,13 +185,13 @@ function NavbarPage({t}) {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <NavLink to="/events/workshop" className="dropdown-item">
-                    {t("events.workshop.title")}
+                      {t("events.workshop.title")}
                     </NavLink>
                     <NavLink to="/events/seminar" className="dropdown-item">
-                    {t("events.seminar.title")}
+                      {t("events.seminar.title")}
                     </NavLink>
                     <NavLink to="/events/media-cover" className="dropdown-item">
-                    {t("events.media-cover.title")}
+                      {t("events.media-cover.title")}
                     </NavLink>
                   </ul>
                 </MDBDropdown>
@@ -191,16 +200,14 @@ function NavbarPage({t}) {
               <MDBNavbarItem>
                 <div className="nav-item active">
                   <NavLink className="nav-link" to="/joinUs">
-                  {t("joinus.title")} 
-                  <span className="sr-only">(current)</span>
+                    {t("joinus.title")}
+                    <span className="sr-only">(current)</span>
                   </NavLink>
                 </div>
               </MDBNavbarItem>
             </MDBNavbarNav>
 
             <LanguageSwitch />
-
-              
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
