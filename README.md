@@ -11,8 +11,8 @@ cd jointlab-web/client
 Then to start the web page and develop, run
 ```
 cd client
-npm install
-npm start
+yarn add
+yarn start
 ```
 Similarly, run the server:
 ```
