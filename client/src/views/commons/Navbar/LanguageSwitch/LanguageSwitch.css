@@ -1,15 +1,13 @@
 .languageSwitch select {
     width: auto;
-    display: inline-block;
-    font: inherit;
+    display: block;
     border-radius: 4px;
     background-color: transparent;
     border: none;
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
     font-size: 90%;
     cursor: pointer;
+    color:black;
+    float:none;
 }
 
 select.minimal {
@@ -28,16 +26,16 @@ select.minimal {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    color: white;
+    color: white
+
 
     /* background: url(./ossweb-img/btn-select.png) no-repeat scroll right 0.03rem
       transparent; */
 
   /*为下拉小箭头留出一点位置，避免被文字覆盖*/
-
-
-
 }
+
+
 
 select.minimal:focus {
     background-image:
@@ -55,4 +53,3 @@ select.minimal:focus {
     outline: 0;
 
 }
-

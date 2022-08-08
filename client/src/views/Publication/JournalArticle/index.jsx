@@ -23,4 +23,5 @@ function JournalArticle({t}) {
     </>
   );
 }
+
 export default withTranslation()(JournalArticle);

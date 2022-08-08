@@ -2,10 +2,7 @@ import Sidebar from "../components/Sidebar";
 import ItemList from "../../commons/components/ItemList";
 import completition from "@img/event/mediaCover/Picture3.png";
 import { withTranslation } from "react-i18next";
-import mdFilePath_en from "./content/mediacover1_en.md";
-import mdFilePath_zh from "./content/mediacover1_zh.md";
-import mdFilePath_ar from "./content/mediacover1_ar.md";
-import i18n from "../../../i18n";
+
 
 function MediaCover({t}) {
   return (

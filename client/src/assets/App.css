@@ -2,6 +2,25 @@
   font-family: "Intel";
   src: url("./font/Inter-VariableFont_slnt,wght.ttf") format("truetype");
 }
+/*  样式兼容设置  */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15; /* Correct the line height in all browsers */
+  -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. */
+}
+body {
+  margin: 0;
+}
+a {
+  background-color: transparent; /* Remove the gray background on active links in IE 10. */
+}
+img {
+  border-style: none; /*  Remove the border on images inside links in IE 10. */
+}
 
 li {
   text-align: left;
