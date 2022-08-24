@@ -9,7 +9,12 @@
     color:black;
     float:none;
 }
-
+option {
+    color: white;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
 select.minimal {
     background-image:
         linear-gradient(45deg, transparent 50%, white 50%),
@@ -28,14 +33,21 @@ select.minimal {
     -webkit-appearance: none;
     color: white
 
-
     /* background: url(./ossweb-img/btn-select.png) no-repeat scroll right 0.03rem
       transparent; */
 
   /*为下拉小箭头留出一点位置，避免被文字覆盖*/
 }
+.MuiSelect-root {
+    color: white
+}
 
-
+.MuiMenu-root{
+   color: wheat;
+}
+.mui-languageswitch Select{
+    color:white;
+}
 
 select.minimal:focus {
     background-image:
